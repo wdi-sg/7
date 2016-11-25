@@ -1,8 +1,8 @@
 ![GA Logo](./_assets/ga_cog.png)
 # WDI 7 Course Information
-Welcome to WDI 7. This repository contains information and materials specific to your course. All other materials are kept in the Singapore WDI [gitbooks ](...).
+Welcome to WDI 7. This repository contains information and materials specific to your course. All other materials are kept in the [Singapore WDI GitBook](https://jeremiahalex.gitbooks.io/wdi-sg/content/) - bookmark it!
 
-The curriculum links below, lead to the specific material covered in class, however, there are plenty of bonus materials also included in the gitbooks.
+The curriculum links below, lead to the specific material covered in class, however, there are plenty of bonus materials also included in the [GitBook](https://jeremiahalex.gitbooks.io/wdi-sg/content/).
 
 ## Instructional Team
 **Jeremiah Alexander** | Lead Instructor | jeremiah.alexander@ga.co      
@@ -40,7 +40,7 @@ The typically daily format is as follows.
 | 03:00 onwards | Lab + Homework
 
 ### Unit 1: Front End Development
-_ Dec 5th - Dec 16th | Jan 3rd - Jan 6th _
+_Dec 5th - Dec 16th | Jan 3rd - Jan 6th_
 
 Unit 1 is all about showing the humble beginnings of the web and introducing students to foundational programming concepts that we'll use for the entire rest of the course.
 
@@ -88,7 +88,7 @@ Details Coming Soon.
 <!-- [Project 1][1022] -->
 
 ### Unit 2: Node/Express
-_ Jan 9th - Jan 27th _
+_Jan 9th - Jan 27th_
 
 Details Coming Soon.
 
@@ -110,7 +110,7 @@ Include AJAX here or leave till final unit?
 -->
 
 ### Unit 3: Ruby on Rails
-_ Jan 31st - Feb 17th _
+_Jan 31st - Feb 17th_
 
 Details Coming Soon.
 
@@ -120,8 +120,8 @@ Details Coming Soon.
 
 -->
 
-### Unit 4: Advanced Concepts
-_ Jan 31st - Mar 10th _
+### Unit 4: Advanced Web Development
+_Jan 31st - Mar 10th_
 
 Details Coming Soon.
 
