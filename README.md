@@ -302,7 +302,7 @@ Details Coming Soon.
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 [1027]: http://flukeout.github.io
 [1028]: http://flexboxfroggy.com
-[1029]: https://jeremiahalex.gitbooks.io/wdi-sg/content/command-line/comman-line-lab.html
+[1029]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/command-line/command-line-lab.html
 [1030]: https://github.com/wdi-sg/tic-tac-tester
 [1031]: https://github.com/wdi-sg/js-clock-intervals
 [1031]: https://github.com/wdi-sg/fellowship-of-the-dom
