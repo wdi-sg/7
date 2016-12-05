@@ -6,9 +6,13 @@ The curriculum links below, lead to the specific material covered in class, howe
 
 ## Instructional Team
 **Jeremiah Alexander** | Lead Instructor | jeremiah.alexander@ga.co      
-** David Tan ** | Facilitator | david.tan@generalassemb.ly
-** Nick Ang ** | Facilitator | email coming soon
-** Terence Lim ** | Facilitator | email coming soon
+
+**David Tan** | Facilitator | david.tan@generalassemb.ly
+
+**Nick Ang** | Facilitator | email coming soon
+
+**Terence Lim** | Facilitator | email coming soon
+
 
 ## Discussion
 Class discussions take place on Slack. [Download Slack](https://slack.com/downloads)
