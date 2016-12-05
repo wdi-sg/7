@@ -6,11 +6,12 @@ The curriculum links below, lead to the specific material covered in class, howe
 
 ## Instructional Team
 **Jeremiah Alexander** | Lead Instructor | jeremiah.alexander@ga.co      
-** TA 1 ** | Instructional Assistant | TA1@generalassemb.ly  
-** TA2 ** | Instructional Assistant | TA2@genalassemb.ly
+** David Tan ** | Facilitator | david.tan@generalassemb.ly
+** Nick Ang ** | Facilitator | email coming soon
+** Terence Lim ** | Facilitator | email coming soon
 
 ## Discussion
-Class discussions take place on Gitter/Slack (TBC). Click this button [to add] in order to join the discussion. Download the Desktop Apps [here][here] and the mobile Apps [here][here]. You can also connect with past WDI SG students [here]
+Class discussions take place on Slack. [Download Slack](https://slack.com/downloads)
 
 ## Github
 We use Github for source code management. Every student will need an account, with all projects and assignments stored there. Below are links to all accounts.
@@ -18,6 +19,8 @@ We use Github for source code management. Every student will need an account, wi
 ### Instructional Team
 - [Jeremiah](http://github.com/jeremiahalex)
 - [David](http://github.com/davified)
+- [Nick](http://github.com/nickangtc)
+- [Terance](http://github.com/terencelimsayjian)
 
 ### Students
 coming soon
