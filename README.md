@@ -9,7 +9,7 @@ The curriculum links below, lead to the specific material covered in class, howe
 
 **David Tan** | Facilitator | david.tan@generalassemb.ly
 
-**Nick Ang** | Facilitator | email coming soon
+**Nick Ang** | Facilitator | nicholas.ang@generalassemb.ly
 
 **Terence Lim** | Facilitator | email coming soon
 
@@ -30,7 +30,7 @@ We use Github for source code management. Every student will need an account, wi
 coming soon
 
 ## Exit Tickets
-At the end of each day's lesson, kindly fill in the [Exit Tickets](https://goo.gl/forms/SEV1rL4MrH1Iyvdf2) to provide feedback for the day's lessons. 
+At the end of each day's lesson, kindly fill in the [Exit Tickets](https://goo.gl/forms/SEV1rL4MrH1Iyvdf2) to provide feedback for the day's lessons.
 
 ## Course Outline
 The following is given as a guideline only and may be adjusted by the instructor based upon the pace of the class.
