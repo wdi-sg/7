@@ -33,7 +33,7 @@ We use Github for source code management. Every student will need an account, wi
 - [Benedict	Koh](http://github.com/benedictkohtc)
 - [Cheng Koon	Ann](http://github.com/chengkoon)
 - [Danial	Haris](http://github.com/danialhr)
-- [David Gu](#)
+- [David Gu](http://github.com/AhGuGu)
 - [Dax Tan](http://github.com/thisisdax)
 - [Esther	Low](http://github.com/EstherLow)
 - [Glen	Sin](http://github.com/glensin)
