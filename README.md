@@ -276,7 +276,7 @@ Details Coming Soon.
 
 [900]: https://github.com/wdi-sg/html_top_ten_movies_table
 [901]: https://github.com/wdi-sg/html_user_inputs
-[902]: https://github.com/ga-students/functions-thriller-lyrics
+[902]: https://github.com/wdi-sg/functions-thriller-lyrics
 [1000]: https://jeremiahalex.gitbooks.io/wdi-sg/content/03-internet/internet-lab.html
 [1001]: https://github.com/wdi-sg/command-line-murder-mystery
 [1002]: https://github.com/wdi-sg/google-shopping-conditionals-loops
@@ -286,7 +286,7 @@ Details Coming Soon.
 [1006]: https://github.com/wdi-sg/google-shopping-functions
 [1007]: https://github.com/wdi-sg/js-functions
 [1008]: https://github.com/wdi-sg/selecting-reddit
-[1009]: https://github.com/ga-students/temperature-converter-dom
+[1009]: https://github.com/wdi-sg/temperature-converter-dom
 [1010]: https://github.com/wdi-sg/tic-tac-toe
 [1011]: https://github.com/wdi-sg/js-callbacks-iterators
 [1012]: https://github.com/wdi-sg/iterators-reddit
@@ -300,10 +300,10 @@ Details Coming Soon.
 [1020]: https://github.com/wdi-sg/oop-prototype-car
 [1021]: https://github.com/wdi-sg/oop-inheritance-car
 [1022]: 11-projects/project-1/readme.html
-[1023]: https://github.com/ga-students/css-positioning
-[1024]: https://github.com/ga-students/css-airbnb
+[1023]: https://github.com/wdi-sg/css-positioning
+[1024]: https://github.com/wdi-sg/css-airbnb
 [1025]: https://github.com/wdi-sg/code-review
-[1026]: https://github.com/ga-students/learn-git-newsroom-style
+[1026]: https://github.com/wdi-sg/learn-git-newsroom-style
 [1027]: http://flukeout.github.io
 [1028]: http://flexboxfroggy.com
 [1029]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/command-line/command-line-lab.html
