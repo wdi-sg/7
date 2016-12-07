@@ -64,6 +64,7 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | [CSS Positioning with Flexbox][9]  | [Flexbox Froggy][1028]
 |                                    | [Recreate Airbnb][1024]
 | [Responsive CSS][16]               | |
+| [Intro to Git/Github][3]           | [Learn Git News Room Style][1026]
 | [JavaScript Primitives][4]         | [Primitives Exercises][1003]    
 | [JavaScript Control Flow][7]       | [Control Flow Problems][1004]
 |                                    | [Google Shopping][1002]
@@ -75,7 +76,6 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 #### Week 2
 | Topic | Assignments
 | ---  | ---         
-| [Intro to Git/Github][3]           | [Learn Git News Room Style][1026]
 | [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]
 |                                    | [Iterators with Reddit][1012]      
 | [DOM and Events][11]               | [Temperature Converter][1009]
