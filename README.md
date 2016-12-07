@@ -27,7 +27,27 @@ We use Github for source code management. Every student will need an account, wi
 - [Terance](http://github.com/terencelimsayjian)
 
 ### Students
-coming soon
+- [Adrian Ke](http://github.com/adrianke77)
+- [Agnes Chew](http://github.com/tomatokenji)
+- [Andrew Thian](http://github.com/AndrewThian)
+- [Benedict	Koh](http://github.com/benedictkohtc)
+- [Cheng Koon	Ann](http://github.com/chengkoon)
+- [Danial	Haris](http://github.com/danialhr)
+- [David Gu](#)
+- [Dax Tan](http://github.com/thisisdax)
+- [Esther	Low](http://github.com/EstherLow)
+- [Glen	Sin](http://github.com/glensin)
+- [Keith Chia](http://github.com/wekkit)
+- [Larissa Thia](http://github.com/larissathia)
+- [Melvin	Mok](http://github.com/melvinthemok)
+- [Olivia Chung](http://github.com/olico852)
+- [Sharan	Kaur](http://github.com/sharanvkaur)
+- [Stephanie Tan](http://github.com/Stephanietan)
+- [Wan Shan	Loo](http://github.com/shanwan)
+- [Weitong Fu](http://github.com/danielfwt)
+- [Yi Sheng Lee](http://github.com/yisheng90)
+- [Zhao Loong	Ng](http://github.com/cavacado)
+
 
 ## Exit Tickets
 At the end of each day's lesson, kindly fill in the [Exit Tickets](https://goo.gl/forms/SEV1rL4MrH1Iyvdf2) to provide feedback for the day's lessons.
