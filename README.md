@@ -286,7 +286,7 @@ Details Coming Soon.
 [15]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/jquery-ajax/readme.html
 [16]: https://jeremiahalex.gitbooks.io/wdi-sg/content/03-html-css/css-responsive-design/readme.html
 [17]: https://jeremiahalex.gitbooks.io/wdi-sg/content/03-html-css/css-bootstrap/readme.html
-[18]: https://jeremiahalex.gitbooks.io/wdi-sg/content/09-other-topics/user-stories-wireframing/readme.html
+[18]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/user-stories-wireframing/readme.html
 [19]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-prototypes/01readme.html
 [20]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-tdd-intro/readme.html
 [21]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-scopes/readme.html
