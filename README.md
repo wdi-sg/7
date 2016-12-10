@@ -87,15 +87,14 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | [Intro to Git/Github][3]           | [Learn Git News Room Style][1026]
 | [JavaScript Primitives][4]         | [Primitives Exercises][1003]    
 | [JavaScript Control Flow][7]       | [Control Flow Problems][1004]
+| [JavaScript Functions][10]         | [Functions Problem Set][1007]
 |                                    | [Google Shopping][1002]
-| [JavaScript Functions][10]         | [Thriller Lyrics][902]
-|                                    | [Functions Problem Set][1007]
 |                                    | [Google Shopping Functions][1006]
-| [Intro to Agile & Testing][18]     | [Tic Tac Tester Mini Project][1030]
 
 #### Week 2
 | Topic | Assignments
 | ---  | ---         
+| [Intro to Agile & Testing][18]     | [Tic Tac Tester Mini Project][1030]
 | [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]
 |                                    | [Iterators with Reddit][1012]      
 | [DOM and Events][11]               | [Temperature Converter][1009]
