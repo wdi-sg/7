@@ -103,7 +103,7 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | [Intro to jQuery][13]              | [jQuery Intro Quiz][1014]
 |                                    | [Fellowship of the DOM][1032]
 |                                    | [Timer][1033]
-|                                    | Tic Tac Toe Revisited
+|                                    | [Tic Tac Toe Revisited][1035]
 | [jQuery Plugins][14]               | [jQuery UI Lab][1015]
 |                                    | [Todo List][1033]
 |                                    | [Sim City Bomb Squad][1034]   
@@ -333,6 +333,7 @@ Details Coming Soon.
 [1032]: https://github.com/wdi-sg/js-timer-lab
 [1033]: https://github.com/wdi-sg/jquery-intro-lab
 [1034]: https://github.com/wdi-sg/sim-city-bomb-squad
+[1035]: https://github.com/wdi-sg/tic-tac-toe-revisited/blob/master/README.md
 
 [101]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/01readme.html
 [102]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-apis/01readme.html
