@@ -42,6 +42,7 @@ We use Github for source code management. Every student will need an account, wi
 - [Melvin	Mok](http://github.com/melvinthemok)
 - [Olivia Chung](http://github.com/olico852)
 - [Sharan	Kaur](http://github.com/sharanvkaur)
+- [Sahaya Sharona](http://github.com/sharona1610)
 - [Stephanie Tan](http://github.com/Stephanietan)
 - [Wan Shan	Loo](http://github.com/shanwan)
 - [Weitong Fu](http://github.com/danielfwt)
