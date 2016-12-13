@@ -96,18 +96,17 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | Topic | Assignments
 | ---  | ---         
 | [Intro to Agile & Testing][18]     | [Tic Tac Tester Mini Project][1030]
-| [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]
-|                                    | [Iterators with Reddit][1012]      
-| [DOM and Events][11]               | [Temperature Converter][1009]
-|                                    | [Animated Clock][1031]
+| [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]     
 | [Intro to jQuery][13]              | [jQuery Intro Quiz][1033]
 |                                    | [Fellowship of the DOM][1032]
+|                                    | [Animated Clock][1036]
 |                                    | [Timer][1033]
+|                                    | [Temperature Converter][1009]
 |                                    | [Tic Tac Toe Revisited][1035]
 | [jQuery Plugins][14]               | [jQuery UI Lab][1015]
 |                                    | [Todo List][1033]
 |                                    | [Sim City Bomb Squad][1034]   
-| [Deploy to Github Pages][24]        | | |
+| [Deploy to Github Pages][24]       | | |
 
 #### Week 3 - Project 1
 Details Coming Soon.
@@ -328,12 +327,12 @@ Details Coming Soon.
 [1028]: http://flexboxfroggy.com
 [1029]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/command-line/command-line-lab.html
 [1030]: https://github.com/wdi-sg/tic-tac-tester
-[1031]: https://github.com/wdi-sg/js-clock-intervals
 [1031]: https://github.com/wdi-sg/fellowship-of-the-dom
 [1032]: https://github.com/wdi-sg/js-timer-lab
 [1033]: https://github.com/wdi-sg/jquery-intro-lab
 [1034]: https://github.com/wdi-sg/sim-city-bomb-squad
 [1035]: https://github.com/wdi-sg/tic-tac-toe-revisited/blob/master/README.md
+[1036]: https://github.com/wdi-sg/js-clock-intervals
 
 [101]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/01readme.html
 [102]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-apis/01readme.html
