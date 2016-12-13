@@ -99,14 +99,13 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 |                                    | [Iterators with Reddit][1012]      
 | [DOM and Events][11]               | [Temperature Converter][1009]
 |                                    | [Animated Clock][1031]
-| [Intro to jQuery][13]              | [jQuery Intro Quiz][1014]
+| [Intro to jQuery][13]              | [jQuery Intro Quiz][1033]
 |                                    | [Fellowship of the DOM][1032]
 |                                    | [Timer][1033]
 |                                    | [Tic Tac Toe Revisited][1035]
 | [jQuery Plugins][14]               | [jQuery UI Lab][1015]
 |                                    | [Todo List][1033]
 |                                    | [Sim City Bomb Squad][1034]   
-| [Intro to TDD][20]                 | |
 | [Deploy to Github Pages][24]        | | |
 
 #### Week 3 - Project 1
@@ -120,9 +119,10 @@ Details Coming Soon.
 
 <!-- TODO. plan out unit 2.
 
-| [Code Review][1025]
+| [Code Review][1025]                | |
+| [Intro to TDD][20]                 | |
 
-| [Scopes][21]                 |                       
+| [Namespaces][21]                 |                       
 ES6: http://stack.formidable.com/es6-interactive-guide  
 | [OOP in JavaScript][19] | [Prototype Body Shop][1020]
 | [JavaScript Inheritance][22] | [Body Shop 2][1021]
