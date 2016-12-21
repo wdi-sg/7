@@ -513,9 +513,9 @@ Details Coming Soon.
 [1316]: https://github.com/wdi-sg/react-stopwatch
 [1317]: https://github.com/wdi-sg/react-yearbook
 
-[401]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html)  
-[402]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html)
-[403]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/english-calculator.html)
+[401]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html
+[402]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html
+[403]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/english-calculator.html
 
 ---
 
