@@ -110,6 +110,13 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | [Intro to TDD][20]                 | |
 | [Deploy to Github Pages][24]        | | |
 
+### Week Christmas / New Year
+A warm up a day keeps the bugs at bay.
+| Week/Day  | Warmup
+| 1/1       | [Sum String](13-warm-ups/sum-string.md)  
+| 1/2       | [Mouse follows Mouse](13-warm-ups/mouse-follows-mouse.md)
+| 1/3       | [English Calculator](13-warm-ups/english-calculator.md)  
+
 #### Week 3 - Project 1
 Details Coming Soon.
 <!-- [Project 1][1022] -->
