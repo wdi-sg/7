@@ -96,19 +96,19 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | Topic | Assignments
 | ---  | ---         
 | [Intro to Agile & Testing][18]     | [Tic Tac Tester Mini Project][1030]
-| [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]
-|                                    | [Iterators with Reddit][1012]      
-| [DOM and Events][11]               | [Temperature Converter][1009]
-|                                    | [Animated Clock][1031]
-| [Intro to jQuery][13]              | [jQuery Intro Quiz][1014]
-|                                    | [Fellowship of the DOM][1032]
-|                                    | [Timer][1033]
+| [JS Callbacks & Iterators][12]     | [Iterators Lab][1011]     
+| [Intro to jQuery][13]              | [jQuery Intro Quiz][1033]
+|                                    | [Bonus: Animated Clock][1036]
 |                                    | [Tic Tac Toe Revisited][1035]
+|                                    | [Fellowship of the DOM][1031]
+|                                    | [Bonus: Temperature Converter][1009]
 | [jQuery Plugins][14]               | [jQuery UI Lab][1015]
-|                                    | [Todo List][1033]
-|                                    | [Sim City Bomb Squad][1034]   
-| [Intro to TDD][20]                 | |
-| [Deploy to Github Pages][24]        | | |
+|                                    | [Timer][1032]
+|                                    | [Sim City Bomb Squad][1034]  
+| [Git Branches & Github Pages][24]  | |
+| [OOP in JavaScript][19]            | [Prototype Body Shop][1020]
+| [Namespaces][21]                   | |                       
+| [JavaScript Inheritance][22]       | [Body Shop 2][1021]
 
 ### Week Christmas / New Year
 A warm up a day keeps the bugs at bay.
@@ -119,7 +119,11 @@ A warm up a day keeps the bugs at bay.
 
 #### Week 3 - Project 1
 Details Coming Soon.
-<!-- [Project 1][1022] -->
+
+<!--
+Read the [Project 1 Specification here][1022], then start by [accepting the Assignment on Github Classroom](https://classroom.github.com/assignment-invitations/008518fab00f26cc1555356345a49679)
+
+-->
 
 ### Unit 2: Node/Express
 _Jan 9th - Jan 27th_
@@ -128,19 +132,85 @@ Details Coming Soon.
 
 <!-- TODO. plan out unit 2.
 
-| [Code Review][1025]
+Unit 2 is about introducing server side development. Specifically, we focus on Node, Express & MongoDB. It is also a chance to solidify JavaScript fundamentals and dive deep into programming concepts like CRUD, OOP, MVC and TDD.
 
-| [Scopes][21]                 |                       
-ES6: http://stack.formidable.com/es6-interactive-guide  
-| [OOP in JavaScript][19] | [Prototype Body Shop][1020]
-| [JavaScript Inheritance][22] | [Body Shop 2][1021]
+intention:
+- review project 1
+- dig deeper into Node
+- explore the idea of objects and modular code, Model, Controller
+- introduce idea of CRUD, persisting data in a jsonfile -> TODOlist
+- introduce DBs & mongo (has_many) ->
+- intro mongoose - update TODOapp to use mongoose
+- introduce testing mocha & chai - practice with todo?
+- introduce express - add a view to our todo App routes, return json, we have an API
+- introduce ejs, for views
+- introduce authentication
+- APIs or views?
 
-| [Internet Fundamentals][1]         | [Internet Lab][1000]  
+moongose lab (todo - remove express, better referencing example)
+https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-models-lesson
 
-| [Bootstrap][17]              | [Bootstrap Mockups][1018]
+follow with ToDo lab?
+
+mongoose referencing lab:
+https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-modeling-lab
+
+mongoose modelling lab (with views):
+https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-crud-lab
+
+#### Week 1 (Build a TODOApp: memory, Filesystem, db -> web interface)
+| Topic | Assignments
+| ---  | ---         
+| [Code Review][1025]              |
+| [Intro to Node & NPM][119]       |
+| [Intro to ES6 JavaScript][25]    | ES6 game?
+| [Intro to TDD with Assert][20]   | Make tests for TODO-App
+| [CRUD & Databases][120]          | Make ToDo App with json file
+| [Intro to MongoDB][309]          |
+| [ORM with Mongoose][310]         | Make ToDo with
+| [Internet Fundamentals][1]       | [Internet Lab][1000]  
+| [Intro to Express][101]          | [Daily Planet][1100]
+| [Organizing an Express App][102] |
+
+Should this be an API?
+TACO Examples are very comprehensive, should fork to sg-wdi
+
+#### Week 2 (build a taco app? maybe a blog is better is better)
+| Topic | Assignments
+| ---  | ---       
+| [Express Testing with Mocha and Chai][112] | [Starter code][113] |
+| [Express Authentication Theory][110] | |
+| [Express Authentication Practice][111] | [Starter Template][1112] |
+| [Foreman][114] | [OMDB Movie Search][1101] |
+| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111] <br><br> [Daily Planet with AJAX (old)][1104] |
+| [Deploy Node to Heroku][107] | [Example App][1113] |
+| [Consuming an API?][102] | [OMDB Movie Search][1101] |
+
+| [Bootstrap][17]              | [Bootstrap Mockups - not great][1018]
+
+- ecryption with express - section is docs currently talks about Sequelize, we should switch to mongoose https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-passwords-lesson
+
+- prob use dotenv rather than foreman //<br><br> [Foreman][114]
 
 Include AJAX here or leave till final unit?
 | [AJAX][15]                   | [AJAX Doughnuts][1016]
+
+
+| Topic | Assignments |
+| ----- | ----------- |
+| [Express with Databases via Sequelize][106] | [Pokedex][1107] <br><br> [Link Shortener][1105] |
+
+
+| Projects and Additional Topics |
+| -------- |
+| [Project 2][1106] |
+| [oAuth][115] |
+| [Realtime with Socket.io][117] |
+| [Geocoding/Maps][116] |
+| [Image Uploads with Cloudinary][118] |
+| [Post Project 2][1110] |
+| [Code Review][1025] |
+
 -->
 
 ### Unit 3: Ruby on Rails
@@ -150,7 +220,13 @@ Details Coming Soon.
 
 
 <!-- TODO. plan out unit 3.
+DB Modelling LAb
+https://github.com/GA-WDI/curriculum/tree/master/resources/05-databases/data-modeling-erd-design-lab
 
+| [Intro to SQL][103] | [Apartment Lab][1102] |
+| [Advanced SQL][104] | [Booktown][1103] |
+| [Sequelize 1:M][108] | [Comments w/BlogPulse][1108] |
+| [Sequelize M:M][109] | [Project Organizer][1109] |
 
 -->
 
@@ -168,32 +244,6 @@ Details Coming Soon.
 
 <!-- hidden
 
-###Unit 2: NodeJS/Express
-
-| Topic | Assignments |
-| ----- | ----------- |
-| [Intro to Express][101] | [Daily Planet][1100] |
-| [Organization and APIs][102] <br><br> [Foreman][114] | [OMDB Movie Search][1101] |
-| [Intro to SQL][103] | [Apartment Lab][1102] |
-| [Advanced SQL][104] | [Booktown][1103] |
-| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111] <br><br> [Daily Planet with AJAX (old)][1104] |
-| [Express with Databases via Sequelize][106] | [Pokedex][1107] <br><br> [Link Shortener][1105] |
-| [Sequelize 1:M][108] | [Comments w/BlogPulse][1108] |
-| [Sequelize M:M][109] | [Project Organizer][1109] |
-| [Express Testing with Mocha and Chai][112] | [Starter code][113] |
-| [Express Authentication Theory (Research/Code)][110] | |
-| [Express Authentication Practice (Codealong)][111] | [Starter Template][1112] |
-| [Deploy Node to Heroku][107] | [Example App][1113] |
-
-| Projects and Additional Topics |
-| -------- |
-| [Project 2][1106] |
-| [oAuth][115] |
-| [Realtime with Socket.io][117] |
-| [Geocoding/Maps][116] |
-| [Image Uploads with Cloudinary][118] |
-| [Post Project 2][1110] |
-| [Code Review][1025] |
 
 
 
@@ -236,7 +286,6 @@ Details Coming Soon.
 | [$http][305] | [(DEPRECATED) Reddit Dashboard][1303] <br><br> [Giphy Search][1302] |
 | [Angular Services][306] | |
 | [Angular Routing (UI Router)][307] | [Route Those Views][1305] |
-| [Intro to MongoDB][309] <br><br> [Mongoose][310] |  |
 | [JSON Web Tokens][311] | [RESTful API][1310] |
 | [Angular + Express][313] <br><br> [Starter Code][314] | |
 | [Angular Authentication][315] | [Starter Code][316] |
@@ -300,6 +349,7 @@ Details Coming Soon.
 [22]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-inheritance/01readme.html
 [23]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/installfest/readme.html
 [24]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/deploy-github-pages/readme.html
+[25]: http://stack.formidable.com/es6-interactive-guide
 
 [900]: https://github.com/wdi-sg/html_top_ten_movies_table
 [901]: https://github.com/wdi-sg/html_user_inputs
@@ -335,12 +385,12 @@ Details Coming Soon.
 [1028]: http://flexboxfroggy.com
 [1029]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/command-line/command-line-lab.html
 [1030]: https://github.com/wdi-sg/tic-tac-tester
-[1031]: https://github.com/wdi-sg/js-clock-intervals
 [1031]: https://github.com/wdi-sg/fellowship-of-the-dom
 [1032]: https://github.com/wdi-sg/js-timer-lab
 [1033]: https://github.com/wdi-sg/jquery-intro-lab
 [1034]: https://github.com/wdi-sg/sim-city-bomb-squad
 [1035]: https://github.com/wdi-sg/tic-tac-toe-revisited/blob/master/README.md
+[1036]: https://github.com/wdi-sg/js-clock-intervals
 
 [101]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/01readme.html
 [102]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-apis/01readme.html
@@ -360,6 +410,8 @@ Details Coming Soon.
 [116]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/additional-topics/express-geocode/readme.html
 [117]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-socket-io/readme.html
 [118]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/additional-topics/express-cloudinary/readme.html
+[119]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/00node.html
+[120]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/readme.html
 
 [1100]: https://github.com/wdi-sg/express-daily-planet
 [1101]: https://github.com/wdi-sg/express-apis-omdb
