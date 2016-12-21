@@ -110,12 +110,14 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 | [Namespaces][21]                   | |                       
 | [JavaScript Inheritance][22]       | [Body Shop 2][1021]
 
-### Week Christmas / New Year
+#### Week Christmas / New Year
 A warm up a day keeps the bugs at bay.
+
 | Week/Day  | Warmup
-| 1/1       | [Sum String](13-warm-ups/sum-string.md)  
-| 1/2       | [Mouse follows Mouse](13-warm-ups/mouse-follows-mouse.md)
-| 1/3       | [English Calculator](13-warm-ups/english-calculator.md)  
+| ---       | ---
+| 1/1       | [Sum String][401]
+| 1/2       | [Mouse follows Mouse][402]
+| 1/3       | [English Calculator][403]
 
 #### Week 3 - Project 1
 Details Coming Soon.
@@ -510,6 +512,10 @@ Details Coming Soon.
 [1315]: https://github.com/wdi-sg/interview-questions
 [1316]: https://github.com/wdi-sg/react-stopwatch
 [1317]: https://github.com/wdi-sg/react-yearbook
+
+[401]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html)  
+[402]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html)
+[403]: (https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/english-calculator.html)
 
 ---
 
