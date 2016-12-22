@@ -118,6 +118,7 @@ A warm up a day keeps the bugs at bay.
 | 1/1       | [Sum String][401]
 | 1/2       | [Mouse follows Mouse][402]
 | 1/3       | [English Calculator][403]
+| 1/4       | [Kopi Order][404]
 
 #### Week 3 - Project 1
 Details Coming Soon.
@@ -516,6 +517,7 @@ Details Coming Soon.
 [401]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html
 [402]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html
 [403]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/english-calculator.html
+[404]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/kopi-order.html
 
 ---
 
