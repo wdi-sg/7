@@ -521,6 +521,7 @@ Details Coming Soon.
 [403]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/english-calculator.html
 [404]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/kopi-order.html
 [405]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/scrabble.html
+[406]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-1.html
 
 ---
 
