@@ -102,13 +102,11 @@ Unit 1 is all about showing the humble beginnings of the web and introducing stu
 |                                    | [Tic Tac Toe Revisited][1035]
 |                                    | [Fellowship of the DOM][1031]
 |                                    | [Bonus: Temperature Converter][1009]
-| [jQuery Plugins][14]               | [jQuery UI Lab][1015]
 |                                    | [Timer][1032]
 |                                    | [Sim City Bomb Squad][1034]  
-| [Git Branches & Github Pages][24]  | |
-| [OOP in JavaScript][19]            | [Prototype Body Shop][1020]
-| [Namespaces][21]                   | |                       
-| [JavaScript Inheritance][22]       | [Body Shop 2][1021]
+| [OOP in JavaScript][19]            | [Prototype Body Shop][1020]           
+| [JavaScript Inheritance][22]       | [Prototype Body Shop 2][1021]
+
 
 #### Week Christmas / New Year
 A warm up a day keeps the bugs at bay.
@@ -123,12 +121,10 @@ A warm up a day keeps the bugs at bay.
 | 2/1       | [Array Practice 1][406]
 
 #### Week 3 - Project 1
-Details Coming Soon.
 
-<!--
-Read the [Project 1 Specification here][1022], then start by [accepting the Assignment on Github Classroom](https://classroom.github.com/assignment-invitations/008518fab00f26cc1555356345a49679)
+Carefully Read the [Project 1 Specification here][1022].
 
--->
+To start your project, you need to [Accept the Assignment on Github Classroom](https://classroom.github.com/assignment-invitations/008518fab00f26cc1555356345a49679). This will create a new repo for you on Github, which you must use to store your project source code.
 
 ### Unit 2: Node/Express
 _Jan 9th - Jan 27th_
@@ -200,6 +196,8 @@ TACO Examples are very comprehensive, should fork to sg-wdi
 Include AJAX here or leave till final unit?
 | [AJAX][15]                   | [AJAX Doughnuts][1016]
 
+Leaderboard API Lab
+https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -267,6 +265,21 @@ Details Coming Soon.
 | [Rails Auth/1:M][208] | [Link Board][1209] |
 | [Rails M:M][209] | [National Parks Part 2: Rangers][1211] |
 | [Polymorphic Associations][210] | [Link Board Comments][1210] |
+
+Ruby Arrays & Hashes
+https://gist.github.com/jeremiahalex/3f8c562406634fe2ab86
+
+Ruby Classes
+https://gist.github.com/jeremiahalex/2dd5a8af97cff8bbd79a
+
+First Rails App
+https://gist.github.com/jeremiahalex/087e0778d1b07ba52962
+
+RSPEC Calculator Gist
+https://gist.github.com/jeremiahalex/0cb59c521b42acfc219cc0d0f91d3329
+
+Cookbook 2 part lab: - need to remove Sinatra reference:
+https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 
 | Projects and Additional Topics |
 | -------- |
