@@ -394,7 +394,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1019]: https://jeremiahalex.gitbooks.io/wdi-sg/content/09-other-topics/user-stories-wireframing/exercise.html
 [1020]: https://github.com/wdi-sg/oop-prototype-car
 [1021]: https://github.com/wdi-sg/oop-inheritance-car
-[1022]: 11-projects/project-1/readme.html
+[1022]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-1/readme.html
 [1023]: https://github.com/wdi-sg/css-positioning
 [1024]: https://github.com/wdi-sg/css-airbnb
 [1025]: https://github.com/wdi-sg/code-review
