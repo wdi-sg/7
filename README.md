@@ -535,6 +535,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [404]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/kopi-order.html
 [405]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/scrabble.html
 [406]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-1.html
+[407]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-2.html
 
 ---
 
