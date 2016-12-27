@@ -119,6 +119,7 @@ A warm up a day keeps the bugs at bay.
 | 1/4       | [Kopi Order][404]
 | 1/5       | [Scrabble][405]
 | 2/1       | [Array Practice 1][406]
+| 2/2       | [Array Practice 2][407]
 
 #### Week 3 - Project 1
 
