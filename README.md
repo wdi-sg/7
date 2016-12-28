@@ -24,7 +24,7 @@ We use Github for source code management. Every student will need an account, wi
 - [Jeremiah](http://github.com/jeremiahalex)
 - [David](http://github.com/davified)
 - [Nick](http://github.com/nickangtc)
-- [Terance](http://github.com/terencelimsayjian)
+- [Terence](http://github.com/terencelimsayjian)
 
 ### Students
 - [Adrian Ke](http://github.com/adrianke77)
