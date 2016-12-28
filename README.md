@@ -120,6 +120,7 @@ A warm up a day keeps the bugs at bay.
 | 1/5       | [Scrabble][405]
 | 2/1       | [Array Practice 1][406]
 | 2/2       | [Array Practice 2][407]
+| 2/3       | [Random Quote Generator][408]
 
 #### Week 3 - Project 1
 
@@ -537,6 +538,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [405]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/scrabble.html
 [406]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-1.html
 [407]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-2.html
+[408]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/random-quote-generator.html
 
 ---
 
