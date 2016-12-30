@@ -122,6 +122,7 @@ A warm up a day keeps the bugs at bay.
 | 2/2       | [Array Practice 2][407]
 | 2/3       | [Random Quote Generator][408]
 | 2/4       | [Kitchen Sink][409]
+| 2/5       | [Custom Iterators][410]
 
 #### Week 3 - Project 1
 
@@ -541,6 +542,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [407]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/array-practice-2.html
 [408]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/random-quote-generator.html
 [409]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/kitchen-sink.html
+[410]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/custom-iterators.html
 
 ---
 
