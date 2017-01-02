@@ -124,6 +124,8 @@ A warm up a day keeps the bugs at bay.
 | 2/4       | [Kitchen Sink][409]
 | 2/5       | [Custom Iterators][410]
 
+View your classmates' solutions [here][411]!
+
 #### Week 3 - Project 1
 
 Carefully Read the [Project 1 Specification here][1022].
@@ -543,6 +545,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [408]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/random-quote-generator.html
 [409]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/kitchen-sink.html
 [410]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/custom-iterators.html
+[411]: https://docs.google.com/spreadsheets/d/1X7jloq3rC2WqzfyHEqDZgdOPjTGIglqY6WSGb3vrLzE/edit?usp=sharing
 
 ---
 
