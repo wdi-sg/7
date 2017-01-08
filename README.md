@@ -7,11 +7,9 @@ The curriculum links below, lead to the specific material covered in class, howe
 ## Instructional Team
 **Jeremiah Alexander** | Lead Instructor | jeremiah.alexander@ga.co      
 
-**David Tan** | Facilitator | david.tan@generalassemb.ly
-
 **Nick Ang** | Facilitator | nicholas.ang@generalassemb.ly
 
-**Terence Lim** | Facilitator | email coming soon
+**Terence Lim** | Facilitator | terencelim92@gmail.com
 
 
 ## Discussion
@@ -135,75 +133,65 @@ To start your project, you need to [Accept the Assignment on Github Classroom](h
 ### Unit 2: Node/Express
 _Jan 9th - Jan 27th_
 
-Details Coming Soon.
+Unit 2 is about introducing server side development. Specifically, we focus on Node.js, Express & MongoDB. It is also a chance to solidify JavaScript fundamentals and dive deep into programming concepts like CRUD and MVC.
 
-<!-- TODO. plan out unit 2.
+#### Week 4
 
-Unit 2 is about introducing server side development. Specifically, we focus on Node, Express & MongoDB. It is also a chance to solidify JavaScript fundamentals and dive deep into programming concepts like CRUD, OOP, MVC and TDD.
+| Topic | Assignments
+| ---  | ---         
+| [JS Review & Scopes][21]         | [Technical Documentation][25]
+|                                  | [Code Review][1025]
+| [Intro to Node & NPM][119]       | |
+| Intro to CRUD & MVC              | |
+| [TDD with Assert][20]            | [TDD Todo Lab][1114]
+| [Intro to NoSQL w/ Mongo][309]   | [Install MongoDB][23]
+| [ORM with Mongoose][310]         | [Mongo Todo Lab][1115]
+| [Internet Fundamentals][1]       | [Internet Lab][1000]  
+| [Intro to Express][101]          | |
+| [REST & CRUD in Express][121]    | [Express Todo Lab pt1][1116]
+| [Views in Express][122]          | |
+| [Bootstrap][17]                  | [Express Todo Lab pt2][1117] ||
 
-intention:
-- review project 1
-- dig deeper into Node
-- explore the idea of objects and modular code, Model, Controller
-- introduce idea of CRUD, persisting data in a jsonfile -> TODOlist
-- introduce DBs & mongo (has_many) ->
-- intro mongoose - update TODOapp to use mongoose
-- introduce testing mocha & chai - practice with todo?
-- introduce express - add a view to our todo App routes, return json, we have an API
-- introduce ejs, for views
-- introduce authentication
-- APIs or views?
+#### Week 5
 
-moongose lab (todo - remove express, better referencing example)
-https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-models-lesson
+We'll dig into modelling more complex relationships in Mongo & Mongoose and we'll also look into adding user authentication to our apps.
 
-follow with ToDo lab?
+<!--
+
+- relationships in mongo/mongoose
+04-databases/mongo-intro/data-modeling.md
+05-express/express-mongoose/relations.md
 
 mongoose referencing lab:
 https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-modeling-lab
 
-mongoose modelling lab (with views):
+mongoose modelling lab (with express & views):
 https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-crud-lab
 
-#### Week 1 (Build a TODOApp: memory, Filesystem, db -> web interface)
-| Topic | Assignments
-| ---  | ---         
-| [Code Review][1025]              |
-| [Intro to Node & NPM][119]       |
-| [Intro to ES6 JavaScript][25]    | ES6 game?
-| [Intro to TDD with Assert][20]   | Make tests for TODO-App
-| [CRUD & Databases][120]          | Make ToDo App with json file
-| [Intro to MongoDB][309]          |
-| [ORM with Mongoose][310]         | Make ToDo with
-| [Internet Fundamentals][1]       | [Internet Lab][1000]  
-| [Intro to Express][101]          | [Daily Planet][1100]
-| [Organizing an Express App][102] |
+- authentication (passport) - section is docs currently talks about Sequelize, we should switch to mongoose https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-passwords-lesson
 
-Should this be an API?
-TACO Examples are very comprehensive, should fork to sg-wdi
-
-#### Week 2 (build a taco app? maybe a blog is better is better)
-| Topic | Assignments
-| ---  | ---       
-| [Express Testing with Mocha and Chai][112] | [Starter code][113] |
 | [Express Authentication Theory][110] | |
-| [Express Authentication Practice][111] | [Starter Template][1112] |
-| [Foreman][114] | [OMDB Movie Search][1101] |
-| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111] <br><br> [Daily Planet with AJAX (old)][1104] |
-| [Deploy Node to Heroku][107] | [Example App][1113] |
-| [Consuming an API?][102] | [OMDB Movie Search][1101] |
+| [Express Authentication Practice][111] | [Starter
+- todos part 4
 
-| [Bootstrap][17]              | [Bootstrap Mockups - not great][1018]
+- deploy
+- | [Deploy Node to Heroku][107] | [Example App][1113] |
 
-- ecryption with express - section is docs currently talks about Sequelize, we should switch to mongoose https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-passwords-lesson
+- practice
+- Build another full app from scratch in pairs [Daily Planet][1100] or blog
 
-- prob use dotenv rather than foreman //<br><br> [Foreman][114]
+testing, apis & ajax
+| [Express Testing with Mocha and Chai][112] | [Starter code][113] | Template][1112] | (CANDIES?)
+https://github.com/GA-WDI/curriculum/blob/master/resources/04-server-applications/node-express-routing-lab/README.md
 
-Include AJAX here or leave till final unit?
+| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111]
+
 | [AJAX][15]                   | [AJAX Doughnuts][1016]
-
+| Topic | Assignments <br><br> [Daily Planet with AJAX (old)][1104] |
 Leaderboard API Lab
 https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
+| [Consuming an API? + Dotenv?][102] | [OMDB Movie Search][1101] |
+
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -247,6 +235,7 @@ Details Coming Soon.
 
 <!-- TODO. plan out unit 4.
 
+webpack, gulp or similar
 
 -->
 
@@ -373,7 +362,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [22]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-inheritance/01readme.html
 [23]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/installfest/readme.html
 [24]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/deploy-github-pages/readme.html
-[25]: http://stack.formidable.com/es6-interactive-guide
+[25]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/js-next/readme.html
 
 [900]: https://github.com/wdi-sg/html_top_ten_movies_table
 [901]: https://github.com/wdi-sg/html_user_inputs
@@ -416,7 +405,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1035]: https://github.com/wdi-sg/tic-tac-toe-revisited/blob/master/README.md
 [1036]: https://github.com/wdi-sg/js-clock-intervals
 
-[101]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/01readme.html
+[101]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/02express.html
 [102]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-apis/01readme.html
 [103]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/sql-intro/readme.html
 [104]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/sql-advanced/readme.html
@@ -436,6 +425,8 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [118]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/additional-topics/express-cloudinary/readme.html
 [119]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/00node.html
 [120]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/readme.html
+[121]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/05crudexpress.html
+[122]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-intro/04views.html
 
 [1100]: https://github.com/wdi-sg/express-daily-planet
 [1101]: https://github.com/wdi-sg/express-apis-omdb
@@ -451,6 +442,10 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1111]: https://github.com/wdi-sg/hackathon-teams
 [1112]: https://github.com/wdi-sg/express-authentication
 [1113]: https://github.com/wdi-sg/tacoapp
+[1114]: https://github.com/wdi-sg/tdd-todo-list
+[1115]: https://github.com/wdi-sg/mongo-todo-list
+[1116]: https://github.com/wdi-sg/express-todo-list-pt1
+[1117]: https://github.com/wdi-sg/express-todo-list-pt2
 
 [201]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-intro/readme.html
 [202]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-classes/readme.html
@@ -491,7 +486,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [306]: https://jeremiahalex.gitbooks.io/wdi-sg/content/07-angular/angular-services/readme.html
 [307]: https://jeremiahalex.gitbooks.io/wdi-sg/content/07-angular/angular-routing/readme.html
 [308]: https://jeremiahalex.gitbooks.io/wdi-sg/content/08-cs/cs-algorithm-complexity/readme.html
-[309]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/mongo-intro/readme.html
+[309]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/mongo-intro/intro-nosql.html
 [310]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-mongoose/readme.html
 [311]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-jwt/readme.html
 [312]: https://jeremiahalex.gitbooks.io/wdi-sg/content/08-cs/cs-stacks-queues/readme.html
