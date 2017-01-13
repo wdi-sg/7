@@ -149,24 +149,21 @@ Unit 2 is about introducing server side development. Specifically, we focus on N
 | [Internet Fundamentals][1]       | [Internet Lab][1000]  
 | [Intro to Express][101]          | |
 | [REST & CRUD in Express][121]    | [Express Todo Lab pt1][1116]
+| [Express Testing with Mocha and Chai][112] | [Mocha TODO List][1117] |
 | [Views in Express][122]          | |
-| [Bootstrap][17]                  | [Express Todo Lab pt2][1117] ||
+| [Bootstrap][17]                  | [Express Todo Lab pt2][1118] |
+|                                  | [Mongoose Pet Shelter][1121]|
 
 #### Week 5
 
-We'll dig into modelling more complex relationships in Mongo & Mongoose and we'll also look into adding user authentication to our apps.
+We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll also look into adding user authentication to our apps.
 
 <!--
-
-- relationships in mongo/mongoose
-04-databases/mongo-intro/data-modeling.md
-05-express/express-mongoose/relations.md
-
-mongoose referencing lab:
-https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-modeling-lab
-
-mongoose modelling lab (with express & views):
-https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-mongo-crud-lab
+| Topic | Assignments
+| ---  | ---  
+| [Modeling Relations in Mongo][333]         | |
+| [Mapping Relations in Mongoose][334]       | [Modeling Airports][1120]
+| | [Express Todo Lab pt3][1118] |
 
 - authentication (passport) - section is docs currently talks about Sequelize, we should switch to mongoose https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-passwords-lesson
 
@@ -180,8 +177,7 @@ https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-application
 - practice
 - Build another full app from scratch in pairs [Daily Planet][1100] or blog
 
-testing, apis & ajax
-| [Express Testing with Mocha and Chai][112] | [Starter code][113] | Template][1112] | (CANDIES?)
+testing, apis & ajax (CANDIES?)
 https://github.com/GA-WDI/curriculum/blob/master/resources/04-server-applications/node-express-routing-lab/README.md
 
 | [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111]
@@ -445,7 +441,11 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1114]: https://github.com/wdi-sg/tdd-todo-list
 [1115]: https://github.com/wdi-sg/mongo-todo-list
 [1116]: https://github.com/wdi-sg/express-todo-list-pt1
-[1117]: https://github.com/wdi-sg/express-todo-list-pt2
+[1117]: https://github.com/wdi-sg/mocha-todo-list
+[1118]: https://github.com/wdi-sg/express-todo-list-pt2
+[1119]: https://github.com/wdi-sg/express-todo-list-pt3
+[1120]: https://github.com/wdi-sg/express-mongo-modeling-lab
+[1121]: https://github.com/wdi-sg/express-mongo-pet-shelter
 
 [201]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-intro/readme.html
 [202]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-classes/readme.html
@@ -510,6 +510,8 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [330]: 10-react/react-router/readme.html
 [331]: https://github.com/wdi-sg/react-omdb
 [332]: 10-react/react-animations/readme.html
+[333]: 04-databases/mongo-intro/data-modeling.html
+[334]: 05-express/express-mongoose/relations.html
 
 [1300]: https://github.com/wdi-sg/angular-calculator
 [1301]: https://github.com/wdi-sg/fruits-and-veggies
