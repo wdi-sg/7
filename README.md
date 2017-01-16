@@ -150,17 +150,18 @@ Unit 2 is about introducing server side development. Specifically, we focus on N
 | [Intro to Express][101]          | |
 | [REST & CRUD in Express][121]    | [Express Todo Lab pt1][1116]
 | [Express Testing with Mocha and Chai][112] | [Mocha TODO List][1117] |
-| [Views in Express][122]          | |
-| [Bootstrap][17]                  | [Express Todo Lab pt2][1118] |
-|                                  | [Mongoose Pet Shelter][1121]|
 
 #### Week 5
 
 We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll also look into adding user authentication to our apps.
 
-<!--
 | Topic | Assignments
 | ---  | ---  
+| [Views in Express][122]          | |
+| [Bootstrap][17]                  | [Express Todo Lab pt2][1118] |
+|                                  | [Mongoose Pet Shelter][1121]|
+
+<!--
 | [Modeling Relations in Mongo][333]         | |
 | [Mapping Relations in Mongoose][334]       | [Modeling Airports][1120]
 | | [Express Todo Lab pt3][1118] |
