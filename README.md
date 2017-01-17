@@ -163,10 +163,10 @@ We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll
 | [Modeling Relations in Mongo][333]   | |
 | [Mapping Relations in Mongoose][334] | [Modeling Airports][1120]
 | | [Multi Model Todo List][1119] |
+| [Express Authentication Theory][110] | |
+| [Express Authentication Practice][111] | |
 
 <!--
-| [Express Authentication Theory][110] | |
-| [Express Authentication Practice][111] | [Starter Code][1112]
 | [Deploy Node to Heroku][107] | [Example App??][1113] |
 
 - practice
