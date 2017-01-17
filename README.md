@@ -159,21 +159,15 @@ We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll
 | ---  | ---  
 | [Views in Express][122]          | |
 | [Bootstrap][17]                  | [Express Todo Lab pt2][1118] |
-|                                  | [Mongoose Pet Shelter][1121]|
+|                                  | [Mongoose Pet Shelter][1121]
+| [Modeling Relations in Mongo][333]   | |
+| [Mapping Relations in Mongoose][334] | [Modeling Airports][1120]
+| | [Multi Model Todo List][1119] |
 
 <!--
-| [Modeling Relations in Mongo][333]         | |
-| [Mapping Relations in Mongoose][334]       | [Modeling Airports][1120]
-| | [Express Todo Lab pt3][1118] |
-
-- authentication (passport) - section is docs currently talks about Sequelize, we should switch to mongoose https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-passwords-lesson
-
 | [Express Authentication Theory][110] | |
-| [Express Authentication Practice][111] | [Starter
-- todos part 4
-
-- deploy
-- | [Deploy Node to Heroku][107] | [Example App][1113] |
+| [Express Authentication Practice][111] | [Starter Code][1112]
+| [Deploy Node to Heroku][107] | [Example App??][1113] |
 
 - practice
 - Build another full app from scratch in pairs [Daily Planet][1100] or blog
@@ -212,8 +206,9 @@ _Jan 31st - Feb 17th_
 
 Details Coming Soon.
 
-
 <!-- TODO. plan out unit 3.
+
+Flea Circus
 DB Modelling LAb
 https://github.com/GA-WDI/curriculum/tree/master/resources/05-databases/data-modeling-erd-design-lab
 
@@ -412,7 +407,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [108]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-1-to-many/readme.html
 [109]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-many-to-many/readme.html
 [110]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-auth/theory/readme.html
-[111]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-auth/practice/readme.html
+[111]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-auth/mongoose/readme.html
 [112]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-mocha-testing/readme.html
 [113]: https://github.com/wdi-sg/mocha-chai-starter
 [114]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/foreman/readme.html
@@ -437,14 +432,14 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1109]: https://github.com/wdi-sg/express-project-organizer
 [1110]: 11-projects/post-project-2/readme.html
 [1111]: https://github.com/wdi-sg/hackathon-teams
-[1112]: https://github.com/wdi-sg/express-authentication
+[1112]: https://github.com/wdi-sg/express-authentication-mongoose
 [1113]: https://github.com/wdi-sg/tacoapp
 [1114]: https://github.com/wdi-sg/tdd-todo-list
 [1115]: https://github.com/wdi-sg/mongo-todo-list
 [1116]: https://github.com/wdi-sg/express-todo-list-pt1
 [1117]: https://github.com/wdi-sg/mocha-todo-list
 [1118]: https://github.com/wdi-sg/express-todo-list-pt2
-[1119]: https://github.com/wdi-sg/express-todo-list-pt3
+[1119]: https://github.com/wdi-sg/multi-model-todo-list
 [1120]: https://github.com/wdi-sg/express-mongo-modeling-lab
 [1121]: https://github.com/wdi-sg/express-mongo-pet-shelter
 
@@ -511,8 +506,8 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [330]: 10-react/react-router/readme.html
 [331]: https://github.com/wdi-sg/react-omdb
 [332]: 10-react/react-animations/readme.html
-[333]: 04-databases/mongo-intro/data-modeling.html
-[334]: 05-express/express-mongoose/relations.html
+[333]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/mongo-intro/data-modeling.html
+[334]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-mongoose/relations.html
 
 [1300]: https://github.com/wdi-sg/angular-calculator
 [1301]: https://github.com/wdi-sg/fruits-and-veggies
