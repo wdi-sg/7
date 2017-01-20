@@ -36,7 +36,7 @@ We use Github for source code management. Every student will need an account, wi
 - [Esther	Low](http://github.com/EstherLow)
 - [Glen	Sin](http://github.com/glensin)
 - [Keith Chia](http://github.com/wekkit)
-- [Larissa Thia](http://github.com/larissathia)
+- [Larissa Thia](https://github.com/top-banana)
 - [Melvin	Mok](http://github.com/melvinthemok)
 - [Olivia Chung](http://github.com/olico852)
 - [Sharan	Kaur](http://github.com/sharanvkaur)
