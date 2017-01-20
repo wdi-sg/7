@@ -165,10 +165,24 @@ We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll
 | | [Multi Model Todo List][1119] |
 | [Express Authentication Theory][110] | |
 | [Express Authentication Practice][111] | [Users Todo List ][1122]
-| [Deploy Node to Heroku][107] |  | |
+| [Deploy Node to Heroku][107] | [Example App][1113] |
+
+#### Week 3 - Project 1
+
+Carefully Read the [Project 2 Specification here][1106].
+
+To start your project, you need to [Fork this Project Repository on Github](https://github.com/jeremiahalex/project-2-starter) -- You can rename your forked repo if you want.
+
+Carefully Read the [Instructions in the Gitbook][1123]
+for Submission and presentation preparation.
+
 <!--
 
-[Example App??][1113]
+| Bonus Topics |
+| -------- |
+| [Geocoding/Maps][116] |
+| [Image Uploads with Cloudinary][118] |
+
 - practice
 - Build another full app from scratch in pairs [Daily Planet][1100] or blog
 
@@ -426,11 +440,11 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1103]: https://github.com/wdi-sg/booktown
 [1104]: https://github.com/wdi-sg/express-daily-planet-ajax
 [1105]: https://github.com/wdi-sg/link-shortener
-[1106]: 11-projects/project-2/readme.html
+[1106]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-2/readme.html
 [1107]: https://github.com/wdi-sg/express-pokedex
 [1108]: https://github.com/wdi-sg/express-blogpulse
 [1109]: https://github.com/wdi-sg/express-project-organizer
-[1110]: 11-projects/post-project-2/readme.html
+[1110]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/post-project-2/readme.html
 [1111]: https://github.com/wdi-sg/hackathon-teams
 [1112]: https://github.com/wdi-sg/express-authentication-mongoose
 [1113]: https://github.com/wdi-sg/tacoapp
@@ -443,6 +457,7 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1120]: https://github.com/wdi-sg/express-mongo-modeling-lab
 [1121]: https://github.com/wdi-sg/express-mongo-pet-shelter
 [1122]: https://github.com/wdi-sg/users-todo-list
+[1123]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/readme.html
 
 [201]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-intro/readme.html
 [202]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-classes/readme.html
