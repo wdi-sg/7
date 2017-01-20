@@ -171,7 +171,7 @@ We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll
 
 Carefully Read the [Project 2 Specification here][1106].
 
-To start your project, you need to [Fork this Project Repository on Github](https://github.com/jeremiahalex/project-2-starter) -- You can rename your forked repo if you want.
+To start your project, you need to [Fork this Project Repository on Github](https://github.com/wdi-sg/project-2-starter) -- You can rename your forked repo if you want.
 
 Carefully Read the [Instructions in the Gitbook][1123]
 for Submission and presentation preparation.
