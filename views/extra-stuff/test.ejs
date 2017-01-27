@@ -1,0 +1,75 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+    <div class="well">
+    <h1></h1>
+    <p>Hello <%=currentUser.name.firstname%></p>
+    <p>You're a <%=currentUser.role%></p>
+    <p>Your work is found at: <a href="http://<%=currentUser.website%>"><%=currentUser.website%></a></p>
+    <p style="font-style:italic">"<%=currentUser.skillsintro%>"</p>
+    <p>Contributed <%=currentUser.posts.length%> posts to date</p>
+    <p>Made <%=currentUser.comments.length%> comments to date</p>
+    </div>
+  </div>
+
+  <div class="col-sm-10 text-left">
+
+       <h2><%= post[0].postId.title %></h2>
+       <h5><a href="/user/<%=post[0].authorId._id%>"> By <%=post[0].authorId.name.firstname %> <%= post[0].authorId.name.lastname %></a></h5>
+       <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= post[0].postId.created_at %></h5>
+       <% let createdTime = new Date(post[0].postId.created_at) %>
+       <% let updatedTime = new Date(post[0].postId.updated_at) %>
+        <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+          <%  } else { %>
+          <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Updated on <%= post[0].postId.updated_at %></h5>
+        <% } %>
+       <h5><span class="label label-primary"><%= post[0].postId.tags %></span> <span class="label label-primary">Ipsum</span></h5><br>
+       <p><%= post[0].postId.article %></p>
+       <hr>
+
+  </hr>
+  <h4>Leave comments:</h4>
+  <form method="post" action="/post/<%=post[0].postId._id%>/create" role="form">
+    <div class="form-group">
+      <textarea class="form-control" rows="3" required name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+  <br><br>
+
+  <p><span class="badge"><%=post.length%></span> Comments:</p><br>
+
+  <% for (var i = post.comments.length -1; i > -1; i--) { %>
+
+      <h4><a href="/user/<%=post[i].authorId._id%>"><%=post[i].authorId.name.firstname%> <%=post[i].authorId.authorId.name.lastname%></a></h4>
+      <h4><small><%=post[i].created_at%></small></h4>
+        <% let createdTime = new Date(post[i].created_at) %>
+        <% let updatedTime = new Date(post[i].updated_at) %>
+         <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+           <%  } else { %>
+        <h4 style="font-style:italic"><small>Edited on <%= post[i].updated_at %></small></h4>
+         <% } %>
+       <% if (currentUser.id != post[i].authorId._id) { %>
+       <% } else {%>
+         <form method="POST" action="/post/<%=post[i].postId._id%>/<%=post[i]._id%>/delete/?_method=DELETE">
+           <button class="btn btn-default btn-s pull-right RbtnMargin" type="submit"><a>Delete comment</a></button>
+         </form>
+          <button class="btn btn-default btn-s pull-right RbtnMargin" type="submit"><a href="/post/<%=post[i].postId._id%>/<%=post[i]._id%>/edit/">Edit comment</a></button>
+       <% } %>
+      <% if (!editField) { %>
+      <p><%=post.comments[i].text%></p>
+      <% } else { %>
+        <form method="post" action="/post/<%=post._id%>/<%=post.comments[i]._id%>/edit/?_method=PUT"role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" name="text"><%=editField.text%></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      <% } %>
+      <br>
+      <hr>
+
+      <% } %>
+    </div>
+
+
+  </div>

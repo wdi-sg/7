@@ -1,0 +1,63 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+<% include ../auth/partials/usernav %>
+  </div>
+  <div class="col-sm-8 text-left">
+    <h1>Populate your pensieve...</h1>
+
+ <% if (!fields) { %>
+
+   <form method="post" action="" class="form-horizontal">
+
+     <div class="form-group">
+       Title:
+       <input type="text" class="form-control" name="title" placeholder="Required" aria-describedby="basic-addon2" required>
+     </div>
+
+     <div class="form-group">
+       Post body:
+       <textarea type="text" rows='12' class="form-control" name="article" placeholder="Required" aria-describedby="basic-addon2" required></textarea>
+     </div>
+
+     <div class="form-group">
+       Tags:
+       <input type="text" class="form-control" name="tags" placeholder="Leave a space between each tag" aria-describedby="basic-addon2">
+     </div>
+
+     <button class="btn btn-default" type="submit">Submit Post</button>
+   </form>
+
+  <% } else { %>
+
+    <form method="post" action="" class="form-horizontal">
+
+      <div class="form-group">
+        Title:
+        <input type="text" class="form-control" name="title" placeholder="Required" aria-describedby="basic-addon2" value="<%= fields.title%>" required>
+      </div>
+
+      <div class="form-group">
+        Post body:
+        <textarea type="text" rows='12' class="form-control" name="article" placeholder="Required" aria-describedby="basic-addon2" required>"<%= fields.article%>"</textarea>
+      </div>
+
+      <div class="form-group">
+        Tags:
+        <input type="text" class="form-control" name="tags" placeholder="Leave a space between each tag" aria-describedby="basic-addon2" value="<%= fields.tags%>">
+      </div>
+      <button class="btn btn-default" type="submit">Submit Post</button>
+    </form>
+
+    <% } %>
+
+  </div>
+  <div class="col-sm-2 sidenav">
+    <div class="well">
+      <p>filler</p>
+    </div>
+    <div class="well">
+      <p>filler</p>
+    </div>
+  </div>
+</div>
+</div>

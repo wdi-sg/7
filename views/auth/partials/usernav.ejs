@@ -1,0 +1,9 @@
+<div class="well">
+<h1></h1>
+<p>Hello <%=currentUser.name.firstname%></p>
+<p>You're a <%=currentUser.role%></p>
+<p>Your work is found at: <a href="http://<%=currentUser.website%>"><%=currentUser.website%></a></p>
+<p style="font-style:italic">"<%=currentUser.skillsintro%>"</p>
+<p>Contributed <%=currentUser.posts.length%> posts to date</p>
+<p>Made <%=currentUser.comments.length%> comments to date</p>
+</div>

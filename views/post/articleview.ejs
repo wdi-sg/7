@@ -1,0 +1,87 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+    <% include ../auth/partials/usernav %>
+  </div>
+
+  <div class="col-sm-8 text-left">
+
+    <% if (Array.isArray(articles)) { %>
+      <h1>Latest articles from the stream...</h1>
+      <% for (var i = (articles.length - 1); i > -1; i--) { %>
+       <hr>
+       <h2><a href="/post/<%=articles[i]._id%>"><%= articles[i].title %></a></h2>
+       <h5><a href="/user/<%=articles[i].user._id%>"> By <%= articles[i].user.name.firstname %> <%= articles[i].user.name.lastname %></a></h5>
+       <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= articles[i].created_at %></h5>
+       <% let createdTime = new Date(articles[i].created_at) %>
+       <% let updatedTime = new Date(articles[i].updated_at) %>
+        <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+          <%  } else { %>
+          <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Updated on <%= articles[i].updated_at %></h5>
+        <% } %>
+       <h5><span class="label label-primary"><%= articles[i].tags %></span></h5><br>
+       <p><%= articles[i].article %></p>
+       <hr>
+      <% } %>
+
+    <% } else { %>
+
+    <h1>Latest articles from <%= articles.name.firstname %></h1>
+
+    <% for (var i = (articles.posts.length - 1); i > -1; i--) { %>
+     <hr>
+     <h2><a href="/post/<%=articles.posts[i]._id%>"><%= articles.posts[i].title %></a></h2>
+     <h5>By <%= articles.name.firstname %> <%= articles.name.lastname %></h5>
+     <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= articles.posts[i].created_at %></h5>
+     <% let createdTime = new Date(articles.posts[i].created_at) %>
+     <% let updatedTime = new Date(articles.posts[i].updated_at) %>
+      <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+        <%  } else { %>
+        <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Updated on <%= articles.posts[i].updated_at %></h5>
+      <% } %>
+     <h5><span class="label label-primary"><%= articles.posts[i].tags %></span></h5><br>
+     <p><%= articles.posts[i].article %></p>
+     <hr>
+
+     <% } %>
+  <% } %>
+     </div>
+
+  <div class="col-sm-2 sidenav">
+    <% if (Array.isArray(articles)) { %>
+      What's trending...
+      <div class="well">
+        <a href="http://www.bbc.com/news/world-us-canada-38764079"><small>Trump seeks Mexican import tax to pay for border wall</small></a>
+      </div>
+      <div class="well">
+        <a href="http://www.bbc.com/news/world-38760792"><small>Apocalypse is 30 seconds closer, say Doomsday Clock scientists</small></a>
+      </div>
+      <div class="well">
+        <a href="https://www.theguardian.com/science/2017/jan/26/first-human-pig-chimera-created-in-milestone-study"><small>First human-pig 'chimera' created in milestone study</small></a>
+      </div>
+
+    </div>
+      <% } else if (currentUser.id != articles.id) { %>
+        <div class="well">
+          <p>You're viewing <%=articles.name.firstname%> <%=articles.name.lastname%>'s posts</p>
+          <p>User works as a <%=articles.role%></p>
+          <p>View their portfolio at <a href="http://<%articles.website%>"><%=articles.website%></a></p>
+          <p style="font-style:italic">"<%=articles.skillsintro%>"</p>
+          <p>Has <a style="text-decoration: underline" href="/post/<%=articles.id%>"><%=articles.posts.length%> posts </a> to date</p>
+          <p>Made <a style="text-decoration: underline" href="/user/<%=articles.id%>/comments"><%=articles.comments.length%> comments </a> to date</p>
+        </div>
+      <% } else if (currentUser.id == articles.id) { %>
+
+          What's trending...
+          <div class="well">
+            <a href="http://www.bbc.com/news/world-us-canada-38764079"><small>Trump seeks Mexican import tax to pay for border wall</small></a>
+          </div>
+          <div class="well">
+            <a href="http://www.bbc.com/news/world-38760792"><small>Apocalypse is 30 seconds closer, say Doomsday Clock scientists</small></a>
+          </div>
+          <div class="well">
+            <a href="https://www.theguardian.com/science/2017/jan/26/first-human-pig-chimera-created-in-milestone-study"><small>First human-pig 'chimera' created in milestone study</small></a>
+          </div>
+
+      <% } %>
+  </div>
+</div>

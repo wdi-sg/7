@@ -1,0 +1,41 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+    <h1></h1>
+    <p>Hello <%=currentUser.name.firstname%></p>
+    <p>You're a <%=currentUser.role%></p>
+    <p>Your work is found at: <a href="http://<%-currentUser.website%>"><%=currentUser.website%></a></p>
+    <p style="font-style:italic">"<%=currentUser.skillsintro%>"</p>
+    <p>Contributed <%=currentUser.posts.length%> posts to date</p>
+    <p>Made <%=currentUser.comments.length%> comments to date</p>
+  </div>
+  <div class="col-sm-8 text-left">
+
+    <h1>Latest articles from the stream...</h1>
+    <% for (var i = (articles.length - 1); i > -1; i--) { %>
+     <hr>
+     <h2><%= articles[i].title %></h2>
+     <h5><a href="/user/<%=articles[i].user._id%>"> By <%= articles[i].user.name.firstname %> <%= articles[i].user.name.lastname %></a></h5>
+     <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= articles[i].created_at %></h5>
+     <% let createdTime = new Date(articles[i].created_at) %>
+     <% let updatedTime = new Date(articles[i].updated_at) %>
+      <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+        <%  } else { %>
+        <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Updated on <%= articles[i].updated_at %></h5>
+      <% } %>
+     <h5><span class="label label-primary"><%= articles[i].tags %></span></h5><br>
+     <p><%= articles[i].article %></p>
+     <hr>
+     <% } %>
+  </div>
+
+  <div class="col-sm-2 sidenav">
+    <h1></h1>
+    <div class="well">
+      <p>filler</p>
+    </div>
+    <div class="well">
+      <p>filler</p>
+    </div>
+  </div>
+</div>
+</div>

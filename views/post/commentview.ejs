@@ -1,0 +1,51 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+    <% include ../auth/partials/usernav %>
+  </div>
+
+  <div class="col-sm-8 text-left">
+
+      <h1>Recent comments by <a href="/user/<%= comments._id%>"><%= comments.name.firstname%> <%=comments.name.lastname%></a></h1>
+
+  <% for (var i = (comments.comments.length - 1); i > -1; i--) { %>
+
+       <hr>
+       <h4>Post link: <a href="/post/<%=comments.comments[i].postId._id%>"><%= comments.comments[i].postId.title%></a></h4>
+       <h5><span class="glyphicon glyphicon-time"></span> Comment posted on <%= comments.comments[i].created_at %></h5>
+       <% let createdTime = new Date(comments.comments[i].created_at) %>
+       <% let updatedTime = new Date(comments.comments[i].updated_at) %>
+        <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+          <%  } else { %>
+          <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Comment updated on <%= comments.comments[i].updated_at %></h5>
+        <% } %>
+       <p><%= comments.comments[i].text %></p>
+       <hr>
+      <% } %>
+     </div>
+
+  <div class="col-sm-2 sidenav">
+
+      <% if (currentUser.id != comments._id) { %>
+        <div class="well">
+          <p>You're viewing <%= comments.name.firstname%> <%=comments.name.lastname%>'s comments</p>
+          <p>User works as a <%=comments.role%></p>
+          <p>View their portfolio at <a href="http://<%comments.website%>"><%=comments.website%></a></p>
+          <p style="font-style:italic">"<%=comments.skillsintro%>"</p>
+          <p>Has <a style="text-decoration: underline" href="/posts/<%=comments._id%>"><%=comments.posts.length%> posts</a> to date</p>
+          <p>Made <a style="text-decoration: underline" href="/users/<%=comments._id%>/comments"><%=comments.comments.length%> comments </a>to date</p>
+        </div>
+      <% } else if (currentUser.id == comments._id) { %>
+        What's trending...
+        <div class="well">
+          <a href="http://www.bbc.com/news/world-us-canada-38764079"><small>Trump seeks Mexican import tax to pay for border wall</small></a>
+        </div>
+        <div class="well">
+          <a href="http://www.bbc.com/news/world-38760792"><small>Apocalypse is 30 seconds closer, say Doomsday Clock scientists</small></a>
+        </div>
+        <div class="well">
+          <a href="https://www.theguardian.com/science/2017/jan/26/first-human-pig-chimera-created-in-milestone-study"><small>First human-pig 'chimera' created in milestone study</small></a>
+        </div>
+
+      <% } %>
+  </div>
+</div>
