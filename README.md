@@ -130,6 +130,19 @@ Carefully Read the [Project 1 Specification here][1022].
 
 To start your project, you need to [Accept the Assignment on Github Classroom](https://classroom.github.com/assignment-invitations/008518fab00f26cc1555356345a49679). This will create a new repo for you on Github, which you must use to store your project source code.
 
+##### Code Reviews
+After completing the Project, each student should complete a [Code Review][1025]. The groupings are:
+1. Benedict / Keith
+2. Wan Shan / Danial
+3. CK / Stephie
+4. Adrian > Yi Sheng > Zhao Loong > Adrian
+5. Esther / Weitong
+6. Glen / David
+7. Larissa / Sharan
+8. Melvin / Olivia
+9. Andrew / Agnes
+10. Dax / Sharona
+
 ### Unit 2: Node/Express
 _Jan 9th - Jan 27th_
 
@@ -140,7 +153,6 @@ Unit 2 is about introducing server side development. Specifically, we focus on N
 | Topic | Assignments
 | ---  | ---         
 | [JS Review & Scopes][21]         | [Technical Documentation][25]
-|                                  | [Code Review][1025]
 | [Intro to Node & NPM][119]       | |
 | Intro to CRUD & MVC              | |
 | [TDD with Assert][20]            | [TDD Todo List][1114]
@@ -167,7 +179,13 @@ We'll dig into modeling more complex relationships in Mongo & Mongoose and we'll
 | [Express Authentication Practice][111] | [Users Todo List ][1122]
 | [Deploy Node to Heroku][107] | [Example App][1113] |
 
-#### Week 3 - Project 1
+| Bonus Topics |
+| -------- |
+| [Image Uploads with Cloudinary][118] |
+| [Geocoding/Maps (Sequelize)][116] |
+| [oAuth (Sequelize)][115]|
+
+#### Week 6 - Project 2
 
 Carefully Read the [Project 2 Specification here][1106].
 
@@ -176,60 +194,73 @@ To start your project, you need to [Fork this Project Repository on Github](http
 Carefully Read the [Instructions in the Gitbook][1123]
 for Submission and presentation preparation.
 
-<!--
-
-| Bonus Topics |
-| -------- |
-| [Geocoding/Maps][116] |
-| [Image Uploads with Cloudinary][118] |
-
-- practice
-- Build another full app from scratch in pairs [Daily Planet][1100] or blog
-
-testing, apis & ajax (CANDIES?)
-https://github.com/GA-WDI/curriculum/blob/master/resources/04-server-applications/node-express-routing-lab/README.md
-
-| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111]
-
-| [AJAX][15]                   | [AJAX Doughnuts][1016]
-| Topic | Assignments <br><br> [Daily Planet with AJAX (old)][1104] |
-Leaderboard API Lab
-https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
-| [Consuming an API? + Dotenv?][102] | [OMDB Movie Search][1101] |
-
-
-| Topic | Assignments |
-| ----- | ----------- |
-| [Express with Databases via Sequelize][106] | [Pokedex][1107] <br><br> [Link Shortener][1105] |
-
-
-| Projects and Additional Topics |
-| -------- |
-| [Project 2][1106] |
-| [oAuth][115] |
-| [Realtime with Socket.io][117] |
-| [Geocoding/Maps][116] |
-| [Image Uploads with Cloudinary][118] |
-| [Post Project 2][1110] |
-| [Code Review][1025] |
-
--->
+##### Code Reviews
+After completing the Project, each student should complete an additional [Code Review][1025]. The groupings are:
+1. Benedict / Wan Shan
+2. Daniel / David
+3. Olivia / Stephie
+4. Adrian / Melvin
+5. Esther / Yi Sheng
+6. Glen / Larissa
+7. Sharan / Keith
+8. Zhao Loong  / CK
+9. Andrew / Sharona
+10. Dax / Agnes
 
 ### Unit 3: Ruby on Rails
 _Jan 31st - Feb 17th_
 
-Details Coming Soon.
+Unit 3 is about taking your server-side development skills to the next level. We'll learn Ruby on Rails and use it to build more sophisticated and scalable Apps. We'll cover relational databases using Postgres and SQL. We'll also cover effective team work and collaboration using Git.
 
-<!-- TODO. plan out unit 3.
+| Topic | Assignments |
+| ----- | ----------- |
+| [Intro to Ruby][201]           | [Ruby Exercises][1201]
+|                                | [Ruby Challenges][1202]
+| [Ruby Classes][202]            | |
+| [Ruby Testing with Rspec][204] | [Rspec Testing][1204]
+|                                | [TDD Calculator][1213] |
+| [Ruby Inheritance][203]        | [Rio Grande][1205]
+| [Intro to Rails][205]      | [National Parks][1206] |
+| [Rails Asset Pipeline][207] & [SASS][217] | [National Parks Part 2][1211] |
+| [Intro to SQL][103] | [Find Carmen Sandiego][1125] |
+| | [Apartment Lab][1102] |
+| [Advanced SQL][104] | [ERBs & Database Modeling][1124] |
+| |  [Booktown][1103]
+| [Rails Auth/1:M][208] | [Link Board][1209] |
+| [Rails M:M][209] | [National Parks Part 3][1214] |
+| [Polymorphic Associations][210] | [Link Board Comments][1210] |
+| [Git Collaboration Review][218] | |
+| [Team Workflows][215] | |
+| [Testing & CI Example][1215] | | |
 
-Flea Circus
-DB Modelling LAb
-https://github.com/GA-WDI/curriculum/tree/master/resources/05-databases/data-modeling-erd-design-lab
+| Bonus Topics |
+| -------- |
+| [oAuth][211] |
+| [Mailers][212] |
+| [Image Uploads with Cloudinary][213] |
+| [Consuming an API][206] |
+| [Building an API][219] |
+| [AJAX in Rails][220]
+| [Data Scraping with Nokogiri][216] |
 
-| [Intro to SQL][103] | [Apartment Lab][1102] |
-| [Advanced SQL][104] | [Booktown][1103] |
-| [Sequelize 1:M][108] | [Comments w/BlogPulse][1108] |
-| [Sequelize M:M][109] | [Project Organizer][1109] |
+<!--
+
+- Rspec Rails & CI (don't have a lesson, can make one as we go through it?). could add coverage and also code climate https://github.com/colszowka/simplecov
+| [Static Site Generators (Jekyll)][214] |
+
+
+#### Week 9 - Project 3
+
+Carefully Read the [Project 3 Specification here][1200].
+
+To start your project, one of your team will need to [Fork this Project Repository on Github](https://github.com/wdi-sg/project-3-starter). This will be your Team Repo -- you should rename it to either your team or project name. Depending on your chosen git workflow, the owner of this repo will either need to add the other team members as collaborators or have them fork the team repo.
+
+Carefully Read the [Instructions in the Gitbook][1123]
+for Submission and presentation preparation.
+
+__Teams__
+
+TODO. add teams here
 
 -->
 
@@ -242,81 +273,34 @@ Details Coming Soon.
 <!-- TODO. plan out unit 4.
 
 webpack, gulp or similar
+| [React with Gulp and Browserify][329] | |
 
--->
-
-
-<!-- hidden
-
+Leaderboard API/AJAX Pair Programming Lab
+https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 
 
 
-###Unit 3: Ruby on Rails
+| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111]
 
-| Topic | Assignments |
-| ----- | ----------- |
-| [Intro to Ruby][201] | [Ruby Exercises][1201] <br><br> [Ruby Challenges][1202] |
-| [Ruby Classes][202] |  |
-| [Ruby Testing with Rspec][204] | [Rspec Testing][1204] |
-| [Ruby Inheritance][203] | [Rio Grande][1205] |
-| [Intro to Rails][205] | [National Parks][1206] |
-| [APIs with Rest-Client][206] | |
-| [Data Scraping with Nokogiri][216] | [Nokogiri CLI Tool][1207] |
-| [Rails Asset Pipeline][207] | |
-| [Rails Auth/1:M][208] | [Link Board][1209] |
-| [Rails M:M][209] | [National Parks Part 2: Rangers][1211] |
-| [Polymorphic Associations][210] | [Link Board Comments][1210] |
+| [AJAX][15]                   | [AJAX Doughnuts][1016]
+| Topic | Assignments <br><br> [Daily Planet with AJAX (old)][1104] |
 
-Ruby Arrays & Hashes
-https://gist.github.com/jeremiahalex/3f8c562406634fe2ab86
 
-Ruby Classes
-https://gist.github.com/jeremiahalex/2dd5a8af97cff8bbd79a
 
-First Rails App
-https://gist.github.com/jeremiahalex/087e0778d1b07ba52962
 
-RSPEC Calculator Gist
-https://gist.github.com/jeremiahalex/0cb59c521b42acfc219cc0d0f91d3329
-
-Cookbook 2 part lab: - need to remove Sinatra reference:
-https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
-
-| Projects and Additional Topics |
-| -------- |
 | [Front End Hackathon][1208] |
-| [Project 3][1200] |
-| [Group Collaboration][215] |
-| [oAuth][211] |
-| [Mailers][212] |
-| [Image Uploads with Cloudinary][213] |
-| [Static Site Generators (Jekyll)][214] |
-| [JS/jQuery Review][1212] |
-
 
 ###Unit 4: AngularJS 1.x and APIs
 
 | Topic | Assignments |
 | ----- | ----------- |
-| [Intro to Angular][301] | [Angular Calculator][1300] |
-| [Directives and Filters][302] | [Fruits and Veggies][1301] |
-| [Animation with ngAnimate][303] | |
-| [Bootstrap Directives][304] | |
-| [$http][305] | [(DEPRECATED) Reddit Dashboard][1303] <br><br> [Giphy Search][1302] |
-| [Angular Services][306] | |
-| [Angular Routing (UI Router)][307] | [Route Those Views][1305] |
 | [JSON Web Tokens][311] | [RESTful API][1310] |
-| [Angular + Express][313] <br><br> [Starter Code][314] | |
-| [Angular Authentication][315] | [Starter Code][316] |
-| [Custom Filters][319] | [Creating Filters][1313] |
-| [Custom Directives][320] | [Creating Directives][1314] |
 
 ###ReactJS
 
 | Topic | Assignments |
 | ----- | ----------- |
 | [Intro to ReactJS][328] | [React Stopwatch][1316] |
-| [React with Gulp and Browserify][329] | |
 | [React Router][330] <br><br> [Starter Code][331] | [React Yearbook][1317] |
 | [React Animations][332] <br><br> | |
 
@@ -458,13 +442,15 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1121]: https://github.com/wdi-sg/express-mongo-pet-shelter
 [1122]: https://github.com/wdi-sg/users-todo-list
 [1123]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/readme.html
+[1124]: https://github.com/wdi-sg/erd-data-modeling-lab
+[1125]: https://github.com/wdi-sg/sql-carmen-sandiego
 
 [201]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-intro/readme.html
 [202]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-classes/readme.html
 [203]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-inheritance/readme.html
 [204]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-rspec/readme.html
 [205]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-intro/readme.html
-[206]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-apis/readme.html
+[206]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-apis/consuming-an-api.html
 [207]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-assets-frontend/readme.html
 [208]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-auth-1-M/readme.html
 [209]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-M-M/readme.html
@@ -475,8 +461,12 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [214]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/additional-topics/ruby-jekyll/readme.html
 [215]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/group-collab/01readme.html
 [216]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/ruby-data-scraping/readme.html
+[217]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/additional-topics/sass/readme.html
+[218]: https://github.com/wdi-sg/git-team-imdb-lab
+[219]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-apis/building-an-api.html
+[220]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-assets-frontend/ajax.md
 
-[1200]: 11-projects/project-3/readme.html
+[1200]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-3/readme.html
 [1201]: https://github.com/wdi-sg/ruby-exercises
 [1202]: https://github.com/wdi-sg/ruby-challenges
 [1203]: https://github.com/wdi-sg/ruby-classes
@@ -486,9 +476,12 @@ https://gist.github.com/jeremiahalex/0d7e1cf2c62da6999622
 [1207]: https://github.com/wdi-sg/nokogiri-cli-tool
 [1208]: https://github.com/wdi-sg/front-end-hackathon
 [1209]: https://github.com/wdi-sg/link-board
-[1210]: https://github.com/wdi-sg/link-board/blob/master/part2.html
-[1211]: https://github.com/wdi-sg/rails-national-parks/blob/master/part2.html
+[1210]: https://github.com/wdi-sg/link-board/blob/master/part2.md
+[1211]: https://github.com/wdi-sg/rails-national-parks/blob/master/part2.md
 [1212]: https://github.com/wdi-sg/js-jquery-review
+[1213]: https://github.com/wdi-sg/rspec-tdd-calculator
+[1214]: https://github.com/wdi-sg/rails-national-parks/blob/master/part3.md
+[1215]: https://github.com/wdi-sg/rails-flea-circus
 
 [301]: https://jeremiahalex.gitbooks.io/wdi-sg/content/07-angular/angular-intro/readme.html
 [302]: https://jeremiahalex.gitbooks.io/wdi-sg/content/07-angular/angular-directives-filters/readme.html
