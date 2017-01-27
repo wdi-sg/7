@@ -1,0 +1,70 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+<% include ../auth/partials/usernav %>
+  </div>
+
+  <div class="col-sm-10 text-left">
+
+       <h2><%= post.title %></h2>
+       <h5><a href="/user/<%=post.user._id%>"> By <%=post.user.name.firstname %> <%= post.user.name.lastname %></a></h5>
+       <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= post.created_at %></h5>
+       <h5><span class="label label-primary"><%= post.tags %></span></h5><br>
+       <p><%= post.article %></p>
+       <hr>
+
+  </hr>
+  <h4>Leave comments:</h4>
+  <form method="post" action="/post/<%=post._id%>/create" role="form">
+    <div class="form-group">
+      <textarea class="form-control" rows="3" required name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+  <br><br>
+
+  <p><span class="badge"><%=post.comments.length%></span> Comments:</p><br>
+
+  <% if (post.comments.length < 1) { %>
+  <% } else { %>
+    <% for (var i = post.comments.length -1; i > -1; i--) { %>
+
+        <h4><a href="/user/<%=post.comments[i].authorId._id%>"><%=post.comments[i].authorId.name.firstname%> <%=post.comments[i].authorId.name.lastname%></a></h4>
+        <h4><small><%=post.comments[i].created_at%></small></h4>
+          <% let createdTime = new Date(post.comments[i].created_at) %>
+          <% let updatedTime = new Date(post.comments[i].updated_at) %>
+           <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+             <%  } else { %>
+          <h4 style="font-style:italic"><small>Edited on <%= post.comments[i].updated_at %></small></h4>
+           <% } %>
+         <% if (currentUser.id != post.comments[i].authorId._id) { %>
+         <% } else {%>
+           <form method="POST" action="/post/<%=post._id%>/delete/<%=post.comments[i]._id%>?_method=DELETE">
+             <button class="btn btn-default btn-s pull-right RbtnMargin" type="submit"><a>Delete comment</a></button>
+           </form>
+            <button id="switch<%=i%>" class="btn btn-default btn-s pull-right RbtnMargin">Edit comment</button>
+         <% } %>
+
+        <p id="comment<%=i%>" style="display:show"><%=post.comments[i].text%></p>
+
+        <div class="editform<%=i%>" style="display:none">
+          <form method="post" action="/post/<%=post._id%>/<%=post.comments[i]._id%>/edit?_method=PUT">
+            <div class="form-group">
+              <textarea class="form-control" rows="3" name="text"><%=post.comments[i].text%></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+
+        <script>
+        $('#switch<%=i%>').click(function (e) {
+          $('.editform<%=i%>').toggle()
+          $('#commentEdit<%=i%>').toggle()
+        })
+        </script>
+
+        <% } %>
+        <br>
+  <% } %>
+      <hr>
+    </div>
+  </div>

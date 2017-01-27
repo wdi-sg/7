@@ -1,0 +1,60 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+  </div>
+  <div class="col-sm-8 text-left">
+    <h1>Update your profile</h1>
+    <p>*Fields required</p>
+    <hr>
+
+    <form method="POST" class="form-horizontal" action=<%="/user/"+ currentUser.id + "/editprofile?_method=PUT"%>>
+      <div class="form-group">
+        <label class="control-label col-sm-2">*First Name:</label>
+        <div class="col-sm-10">
+          <input type="text" name="firstname" class="form-control" id="firstname" value="<%= currentUser.name.firstname%>" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">*Last Name:</label>
+        <div class="col-sm-10">
+          <input type="text" name="lastname" class="form-control" id="lastname" value="<%= currentUser.name.lastname %>" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">*Email:</label>
+        <div class="col-sm-10">
+          <input type="email" name="email" class="form-control" readonly id="email" value=<%= currentUser.email %>>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Website:</label>
+        <div class="col-sm-10">
+          <input type="text" name="website" class="form-control" id="website" value=<%= currentUser.website %>>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">*Role:</label>
+        <div class="col-sm-10">
+          <input type="text" name="role" class="form-control" id="role" value=<%= currentUser.role %> required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Skills Write-up:</label>
+        <div class="col-sm-10">
+          <textarea type="text" rows='5' name="skillsintro" class="form-control" id="skillsintro"><%= currentUser.skillsintro %></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </form>
+
+
+  </div>
+  <div class="col-sm-2 sidenav">
+  </div>
+</div>
+</div>

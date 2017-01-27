@@ -1,0 +1,44 @@
+<div class="row content">
+  <div class="col-sm-2 sidenav">
+<% include ../auth/partials/usernav %>
+</div>
+  <div class="col-sm-8 text-left">
+    <h1>Edit your articles...</h1>
+
+    <% for (var i = articles.posts.length-1; i > -1; i--) { %>
+
+     <hr>
+     <h2><%= articles.posts[i].title %></h2>
+     <form method="post" action=<%="/user/"+ articles.posts[i].user + "/delete/" + articles.posts[i]._id + "?_method=DELETE"%>>
+       <button class="btn btn-default btn-sm pull-right RbtnMargin" type="submit"><a>Delete</a></button>
+     </form>
+     <button type="button" class="btn btn-default btn-sm pull-right"><a href=<%="/user/" + articles._id+ "/edit/" + articles.posts[i]._id%>>Edit Post</a></button>
+     <h5><a href=<%="/user/" + articles.posts[i].user%>> By <%= articles.name.firstname %> <%= articles.name.lastname %></a></h5>
+     <h5><span class="glyphicon glyphicon-time"></span> Posted on <%= articles.posts[i].created_at %></h5>
+     <% let createdTime = new Date(articles.posts[i].created_at) %>
+     <% let updatedTime = new Date(articles.posts[i].updated_at) %>
+      <% if (createdTime.toUTCString() === updatedTime.toUTCString()) { %>
+        <%  } else { %>
+        <h5 style="font-style:italic"><span class="glyphicon glyphicon-time"></span> Updated on <%= articles.posts[i].updated_at %></h5>
+      <% } %>
+     <h5><span class="label label-primary"><%= articles.posts[i].tags %></span></h5><br>
+     <p><%= articles.posts[i].article %></p>
+     <hr>
+     <% } %>
+  </div>
+
+  <div class="col-sm-2 sidenav">
+    What's trending...
+    <div class="well">
+      <a href="http://www.bbc.com/news/world-us-canada-38764079"><small>Trump seeks Mexican import tax to pay for border wall</small></a>
+    </div>
+    <div class="well">
+      <a href="http://www.bbc.com/news/world-38760792"><small>Apocalypse is 30 seconds closer, say Doomsday Clock scientists</small></a>
+    </div>
+    <div class="well">
+      <a href="https://www.theguardian.com/science/2017/jan/26/first-human-pig-chimera-created-in-milestone-study"><small>First human-pig 'chimera' created in milestone study</small></a>
+    </div>
+
+  </div>
+</div>
+</div>
