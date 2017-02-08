@@ -212,6 +212,7 @@ _Jan 31st - Feb 17th_
 
 Unit 3 is about taking your server-side development skills to the next level. We'll learn Ruby on Rails and use it to build more sophisticated and scalable Apps. We'll cover relational databases using Postgres and SQL. We'll also cover effective team work and collaboration using Git.
 
+#### Week 7
 | Topic | Assignments |
 | ----- | ----------- |
 | [Intro to Ruby][201]           | [Ruby Exercises][1201]
@@ -221,20 +222,24 @@ Unit 3 is about taking your server-side development skills to the next level. We
 |                                | [TDD Calculator][1213] |
 | [Ruby Inheritance][203]        | [Rio Grande][1205]
 | [Intro to Rails][205]      | [National Parks][1206] |
-| [Rails Asset Pipeline][207] & [SASS][217] | [National Parks Part 2][1211] |
+| [Rails Asset Pipeline][207] & [SASS][217] | [National Parks Part 2][1211] | |
+
+#### Week 8
+| Topic | Assignments
+| ---  | ---      
 | [Intro to SQL][103] | [Find Carmen Sandiego][1125] |
 | | [Apartment Lab][1102] |
 | [Advanced SQL][104] | [ERBs & Database Modeling][1124] |
 | |  [Booktown][1103]
 | [Rails Auth/1:M][208] | [Link Board][1209] |
 | [Rails M:M][209] | [National Parks Part 3][1214] |
-| [Polymorphic Associations][210] | [Link Board Comments][1210] |
 | [Git Collaboration Review][218] | |
 | [Team Workflows][215] | |
-| [Testing & CI Example][1215] | | |
+| [Deploy Rails to Heroku][221] | [Testing & CI Example][1215] |
 
 | Bonus Topics |
 | -------- |
+| [Polymorphic Associations][210] |
 | [oAuth][211] |
 | [Mailers][212] |
 | [Image Uploads with Cloudinary][213] |
@@ -242,12 +247,6 @@ Unit 3 is about taking your server-side development skills to the next level. We
 | [Building an API][219] |
 | [AJAX in Rails][220]
 | [Data Scraping with Nokogiri][216] |
-
-<!--
-
-- Rspec Rails & CI (don't have a lesson, can make one as we go through it?). could add coverage and also code climate https://github.com/colszowka/simplecov
-| [Static Site Generators (Jekyll)][214] |
-
 
 #### Week 9 - Project 3
 
@@ -258,11 +257,14 @@ To start your project, one of your team will need to [Fork this Project Reposito
 Carefully Read the [Instructions in the Gitbook][1123]
 for Submission and presentation preparation.
 
-__Teams__
+##### Teams
 
-TODO. add teams here
-
--->
+1. Glen / Lari / Olivia
+1. Adrian / Keith / Melvin / Ben
+1. David / Steph / Wan Shan
+1. Agnes / CK / Dax
+1. Danial / Sharan / Esther
+1. Zhao Loong / Yi Sheng / Andrew / Sharona
 
 ### Unit 4: Advanced Web Development
 _Jan 31st - Mar 10th_
@@ -464,7 +466,8 @@ https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 [217]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/additional-topics/sass/readme.html
 [218]: https://github.com/wdi-sg/git-team-imdb-lab
 [219]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-apis/building-an-api.html
-[220]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-assets-frontend/ajax.md
+[220]: https://jeremiahalex.gitbooks.io/wdi-sg/content/06-ruby-rails/rails-assets-frontend/ajax.html
+[221]: https://jeremiahalex.gitbooks.io/wdi-sg/content/00-config-deployment/deploy-rails/readme.html
 
 [1200]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-3/readme.html
 [1201]: https://github.com/wdi-sg/ruby-exercises
