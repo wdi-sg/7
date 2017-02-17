@@ -266,13 +266,26 @@ for Submission and presentation preparation.
 1. Danial / Sharan / Esther
 1. Zhao Loong / Yi Sheng / Andrew / Sharona
 
+#### Post-Mortem
+Once your project is complete, you will have to work as a group to write a [Post-Mortem](https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-3/post-mortem.html).
+
 ### Unit 4: Advanced Web Development
 _Jan 31st - Mar 10th_
 
-Details Coming Soon.
+Unit 4, our final unit, returns to focus on the front-end looking at JavaScript frameworks, Build Tools, AJAX, WebSockets and SPAs.
 
-
-<!-- TODO. plan out unit 4.
+<!--
+- webpack
+- AJAX (peanuts)
+ - deploy to heroku button on repo?
+- api authentication (jwt vs manual)
+ - https://github.com/jeremiahalex/express-api-authentication-example (express token authentication, no passport)
+ - https://github.com/jeremiahalex/single-user-node-authentication (single token authentication) https://github.com/jeremiahalex/single-user-node-authentication (convert to a single page app, for simplicity)
+ - AJAX authentication
+- sockets
+- front-end frameworks
+- webpack
+- docker / aws
 
 webpack, gulp or similar
 | [React with Gulp and Browserify][329] | |
@@ -280,23 +293,31 @@ webpack, gulp or similar
 Leaderboard API/AJAX Pair Programming Lab
 https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 
+#### Week 10
+| Topic | Assignments
+| ---  | ---      
+| [AJAX][15]                   | |
+| [API Authentication][1318] |  |
+|
+| [WebSockets with Socket.io] |
 
 
-| [Full RESTful Routing w/AJAX][105] | [Hackathon Teams][1111]
 
-| [AJAX][15]                   | [AJAX Doughnuts][1016]
-| Topic | Assignments <br><br> [Daily Planet with AJAX (old)][1104] |
+#### Week 12 - Final Project
 
+Carefully Read the [Project 4 Specification here][1304].
 
+To start your project, [Fork this Project Repository on Github](https://github.com/wdi-sg/project-4-starter).
 
+Carefully Read the [Instructions in the Gitbook][1123]
+for Submission and presentation preparation.
 
-| [Front End Hackathon][1208] |
-
+This is your last project, so give it your all!
+<!--
 ###Unit 4: AngularJS 1.x and APIs
 
 | Topic | Assignments |
 | ----- | ----------- |
-| [JSON Web Tokens][311] | [RESTful API][1310] |
 
 ###ReactJS
 
@@ -525,7 +546,7 @@ https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 [1301]: https://github.com/wdi-sg/fruits-and-veggies
 [1302]: https://github.com/wdi-sg/angular-giphy
 [1303]: https://github.com/wdi-sg/angular-reddit-dashboard
-[1304]: 11-projects/project-4/readme.html
+[1304]: https://jeremiahalex.gitbooks.io/wdi-sg/content/11-projects/project-4/readme.html
 [1305]: https://github.com/wdi-sg/angular-route-those-views
 [1306]: http://codepen.io/bhague1281/pen/EKyMVz
 [1307]: http://codepen.io/bhague1281/pen/aNZPrq
@@ -539,6 +560,7 @@ https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
 [1315]: https://github.com/wdi-sg/interview-questions
 [1316]: https://github.com/wdi-sg/react-stopwatch
 [1317]: https://github.com/wdi-sg/react-yearbook
+[1318]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/jquery-ajax/api_authentication.md
 
 [401]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html
 [402]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html
