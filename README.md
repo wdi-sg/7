@@ -274,34 +274,19 @@ _Jan 31st - Mar 10th_
 
 Unit 4, our final unit, returns to focus on the front-end looking at JavaScript frameworks, Build Tools, AJAX, WebSockets and SPAs.
 
-<!--
-- webpack
-- AJAX (peanuts)
- - deploy to heroku button on repo?
-- api authentication (jwt vs manual)
- - https://github.com/jeremiahalex/express-api-authentication-example (express token authentication, no passport)
- - https://github.com/jeremiahalex/single-user-node-authentication (single token authentication) https://github.com/jeremiahalex/single-user-node-authentication (convert to a single page app, for simplicity)
- - AJAX authentication
-- sockets
-- front-end frameworks
-- webpack
-- docker / aws
-
-webpack, gulp or similar
-| [React with Gulp and Browserify][329] | |
-
-Leaderboard API/AJAX Pair Programming Lab
-https://gist.github.com/jeremiahalex/5305368ad055f27874dfbbbcad4d8f70
+At this point in the course, you are very accomplished developers. In addition, the bootcamp will being ending soon, and you'll need to have habits in place to keep up your learning. So this unit will focus heavily on self-led, group and project based learning rather than lecture.
 
 #### Week 10
 | Topic | Assignments
 | ---  | ---      
-| [AJAX][15]                   | |
+| [AJAX][15]                 |  |
 | [API Authentication][1318] |  |
-|
-| [WebSockets with Socket.io] |
+| [Frontend JS Frameworks][336] | [SPA Mini Project][1319] |
 
-
+#### Week 11
+| Topic | Assignments
+| ---  | ---  
+| [WebSockets with Socket.io][335] | [RT Mini Project][1320] |
 
 #### Week 12 - Final Project
 
@@ -313,44 +298,13 @@ Carefully Read the [Instructions in the Gitbook][1123]
 for Submission and presentation preparation.
 
 This is your last project, so give it your all!
-<!--
-###Unit 4: AngularJS 1.x and APIs
 
-| Topic | Assignments |
-| ----- | ----------- |
+### Post WDI
+_Mar 13th - Forever_
 
-###ReactJS
+Congratulations on making it this far. The 12 weeks are over and you're now at the beginning of your journey as a web developer.
 
-| Topic | Assignments |
-| ----- | ----------- |
-| [Intro to ReactJS][328] | [React Stopwatch][1316] |
-| [React Router][330] <br><br> [Starter Code][331] | [React Yearbook][1317] |
-| [React Animations][332] <br><br> | |
-
-
-###Computer Science
-
-| Topic | Assignments |
-| ----- | ----------- |
-| Recursion/Problem Solving | [Array Challenge][1308] |
-| Binary Search <br><br> [Algorithm Complexity][308] | [Auto Guess][1309] |
-| [Stacks and Queues][312] | [Bracket Matching][1311] |
-| Linked Lists | [Singly Linked List][317] <br><br> [Linked List Methods][318] |
-| Bucket Sort | [Bucket Sort: Sorting Papers][321] |
-| [Bubble Sort][322] | |
-| [Merge Sort][323] | |
-| [Quick Sort][324] | |
-| [Sorting Wrapup][325] | |
-| [Hashmaps][326] | |
-| [Trees and Other Topics][327] | N/A |
-
-
-| Projects and Additional Topics |
-| -------- |
-| [Project 4][1304] |
-
--->
-
+Checkout the [POST WDI Section in the Gitbook](https://jeremiahalex.gitbooks.io/wdi-sg/content/09-post-wdi/readme.html) for instructions on what to do next and keep up the learning!
 
 [1]: https://jeremiahalex.gitbooks.io/wdi-sg/content/03-internet/how-the-internet-works.html
 [2]: https://jeremiahalex.gitbooks.io/wdi-sg/content/01-workflow/command-line/01readme.html
@@ -541,6 +495,9 @@ This is your last project, so give it your all!
 [332]: 10-react/react-animations/readme.html
 [333]: https://jeremiahalex.gitbooks.io/wdi-sg/content/04-databases/mongo-intro/data-modeling.html
 [334]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-mongoose/relations.html
+[335]: https://jeremiahalex.gitbooks.io/wdi-sg/content/05-express/express-socket-io/readme.html
+[336]: https://jeremiahalex.gitbooks.io/wdi-sg/content/07-frontend-frameworks/readme.html
+
 
 [1300]: https://github.com/wdi-sg/angular-calculator
 [1301]: https://github.com/wdi-sg/fruits-and-veggies
@@ -561,6 +518,8 @@ This is your last project, so give it your all!
 [1316]: https://github.com/wdi-sg/react-stopwatch
 [1317]: https://github.com/wdi-sg/react-yearbook
 [1318]: https://jeremiahalex.gitbooks.io/wdi-sg/content/02-js-jquery/jquery-ajax/api_authentication.md
+[1319]: https://github.com/wdi-sg/alumni
+[1320]: https://github.com/wdi-sg/its-all-about-you
 
 [401]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/sum-string.html
 [402]: https://jeremiahalex.gitbooks.io/wdi-sg/content/13-warm-ups/mouse-follows-mouse.html
