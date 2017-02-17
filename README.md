@@ -286,7 +286,8 @@ At this point in the course, you are very accomplished developers. In addition, 
 #### Week 11
 | Topic | Assignments
 | ---  | ---  
-| [WebSockets with Socket.io][335] | [RT Mini Project][1320] |
+| [WebSockets with Socket.io][335] | Chat Lab |
+| | [RT Mini Project][1320] |
 
 #### Week 12 - Final Project
 
